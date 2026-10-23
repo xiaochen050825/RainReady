@@ -1,0 +1,20 @@
+> rainready@2.0.0 test:network
+> node --test tests/network.test.mjs
+
+✔ 28-node graph validates and unique traversal reaches all ancestors (2.2312ms)
+✔ rejects duplicates, malformed numbers, missing references and cycles (1.1463ms)
+✔ network-critical moderate collector outranks severely blocked minor inlet (8.4614ms)
+✔ rainfall changes priority order and scheduled work, not just display numbers (2.482ms)
+✔ condition and connectivity changes alter priorities; missing rain lowers confidence (0.8025ms)
+✔ planner respects deadlines, availability, shift length, return travel and uniqueness (1.4967ms)
+✔ access, equipment and temporal dependencies constrain scheduling (1.2192ms)
+✔ simulation is seeded and comparisons use identical budgets without mutating inputs (43.9506ms)
+✔ legacy migration preserves original data, rejects invalid input and survives quota failure (0.4919ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 254.7227

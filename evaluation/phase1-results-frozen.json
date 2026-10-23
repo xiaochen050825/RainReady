@@ -1,0 +1,3296 @@
+{
+  "seed": 2026,
+  "count": 96,
+  "summary": [
+    {
+      "method": "fixed",
+      "addressedPercent": -6.270846658099525,
+      "criticalCoverage": 5,
+      "tasks": 9.447916666666666,
+      "travel": 25.541666666666668,
+      "service": 250.05208333333334
+    },
+    {
+      "method": "severity",
+      "addressedPercent": -4.272753964901044,
+      "criticalCoverage": 28.75,
+      "tasks": 8.291666666666666,
+      "travel": 36.927083333333336,
+      "service": 248.55208333333334
+    },
+    {
+      "method": "rainready",
+      "addressedPercent": 18.700461463524764,
+      "criticalCoverage": 65,
+      "tasks": 6.729166666666667,
+      "travel": 33.5625,
+      "service": 254.75
+    }
+  ],
+  "rows": [
+    {
+      "scenario": 0,
+      "condition": "nominal",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.44797909637986777,
+          "addressedPercent": -0.07566369052931891,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 5,
+          "service": 48
+        },
+        {
+          "method": "severity",
+          "addressed": -0.900862018649832,
+          "addressedPercent": -0.15215563748300298,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 11,
+          "service": 48
+        },
+        {
+          "method": "rainready",
+          "addressed": 387.5848934046665,
+          "addressedPercent": 65.46310679537248,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 1,
+      "condition": "missing conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -7.7251369103044,
+          "addressedPercent": -1.5530745629229845,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -7.684139140218917,
+          "addressedPercent": -1.5448323020290196,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 20,
+          "service": 88
+        },
+        {
+          "method": "rainready",
+          "addressed": 103.84759904416279,
+          "addressedPercent": 20.87769658567246,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 26,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 2,
+      "condition": "noisy conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -15.07879198977463,
+          "addressedPercent": -5.66669102153109,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 20,
+          "service": 144
+        },
+        {
+          "method": "severity",
+          "addressed": -187.619839701268,
+          "addressedPercent": -70.50854351046513,
+          "criticalCoverage": 40,
+          "tasks": 3,
+          "travel": 32,
+          "service": 121
+        },
+        {
+          "method": "rainready",
+          "addressed": 71.93099930767306,
+          "addressedPercent": 27.032055898308215,
+          "criticalCoverage": 60,
+          "tasks": 3,
+          "travel": 36,
+          "service": 132
+        }
+      ]
+    },
+    {
+      "scenario": 3,
+      "condition": "missing connections",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -4.3301279036199105,
+          "addressedPercent": -5.617305330327259,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 4,
+          "service": 40
+        },
+        {
+          "method": "severity",
+          "addressed": -74.08509004930016,
+          "addressedPercent": -96.1076856145075,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 12,
+          "service": 45
+        },
+        {
+          "method": "rainready",
+          "addressed": 27.822084247897386,
+          "addressedPercent": 36.09250018131715,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 4,
+      "condition": "nominal",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -2.84406272971205,
+          "addressedPercent": -0.6925440178203648,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -375.0593034602157,
+          "addressedPercent": -91.32888463593888,
+          "criticalCoverage": 40,
+          "tasks": 6,
+          "travel": 26,
+          "service": 190
+        },
+        {
+          "method": "rainready",
+          "addressed": -18.627066425001317,
+          "addressedPercent": -4.53578723401903,
+          "criticalCoverage": 80,
+          "tasks": 4,
+          "travel": 30,
+          "service": 180
+        }
+      ]
+    },
+    {
+      "scenario": 5,
+      "condition": "missing conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -28.105012797952554,
+          "addressedPercent": -3.2861168695969973,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 33,
+          "service": 290
+        },
+        {
+          "method": "severity",
+          "addressed": -225.64729656525856,
+          "addressedPercent": -26.3833143629122,
+          "criticalCoverage": 20,
+          "tasks": 9,
+          "travel": 45,
+          "service": 297
+        },
+        {
+          "method": "rainready",
+          "addressed": -279.28906668740956,
+          "addressedPercent": -32.65526047375994,
+          "criticalCoverage": 60,
+          "tasks": 7,
+          "travel": 45,
+          "service": 283
+        }
+      ]
+    },
+    {
+      "scenario": 6,
+      "condition": "noisy conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -11.336457241048606,
+          "addressedPercent": -1.7994040612910327,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 8,
+          "service": 108
+        },
+        {
+          "method": "severity",
+          "addressed": -183.37895978909512,
+          "addressedPercent": -29.107227944636143,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 15,
+          "service": 105
+        },
+        {
+          "method": "rainready",
+          "addressed": -171.6251071228645,
+          "addressedPercent": -27.2415718782198,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 15,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 7,
+      "condition": "missing connections",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -11.918294930322304,
+          "addressedPercent": -1.9166205406907086,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -20.25490678553308,
+          "addressedPercent": -3.2572587456416042,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 39,
+          "service": 196
+        },
+        {
+          "method": "rainready",
+          "addressed": 125.82512725619051,
+          "addressedPercent": 20.234356075606485,
+          "criticalCoverage": 40,
+          "tasks": 5,
+          "travel": 31,
+          "service": 192
+        }
+      ]
+    },
+    {
+      "scenario": 8,
+      "condition": "nominal",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -14.210548467457784,
+          "addressedPercent": -2.755932574741277,
+          "criticalCoverage": 20,
+          "tasks": 17,
+          "travel": 51,
+          "service": 470
+        },
+        {
+          "method": "severity",
+          "addressed": -382.73062497136004,
+          "addressedPercent": -74.22512924994476,
+          "criticalCoverage": 60,
+          "tasks": 15,
+          "travel": 68,
+          "service": 460
+        },
+        {
+          "method": "rainready",
+          "addressed": -102.77490600359033,
+          "addressedPercent": -19.93172268965479,
+          "criticalCoverage": 100,
+          "tasks": 12,
+          "travel": 55,
+          "service": 472
+        }
+      ]
+    },
+    {
+      "scenario": 9,
+      "condition": "missing conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -7.983408164413419,
+          "addressedPercent": -8.290708146632415,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": -112.52281380784223,
+          "addressedPercent": -116.8540790983376,
+          "criticalCoverage": 40,
+          "tasks": 4,
+          "travel": 13,
+          "service": 151
+        },
+        {
+          "method": "rainready",
+          "addressed": 82.20456348472162,
+          "addressedPercent": 85.36880867636545,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 19,
+          "service": 161
+        }
+      ]
+    },
+    {
+      "scenario": 10,
+      "condition": "noisy conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -22.81382355792215,
+          "addressedPercent": -4.479158691768814,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 31,
+          "service": 302
+        },
+        {
+          "method": "severity",
+          "addressed": 274.02850898389204,
+          "addressedPercent": 53.80146711012084,
+          "criticalCoverage": 40,
+          "tasks": 10,
+          "travel": 39,
+          "service": 307
+        },
+        {
+          "method": "rainready",
+          "addressed": 208.97849286844678,
+          "addressedPercent": 41.02985325313458,
+          "criticalCoverage": 80,
+          "tasks": 8,
+          "travel": 38,
+          "service": 309
+        }
+      ]
+    },
+    {
+      "scenario": 11,
+      "condition": "missing connections",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -21.0749265940982,
+          "addressedPercent": -2.3439725694745275,
+          "criticalCoverage": 20,
+          "tasks": 16,
+          "travel": 47,
+          "service": 436
+        },
+        {
+          "method": "severity",
+          "addressed": 46.74576035760958,
+          "addressedPercent": 5.199106128708923,
+          "criticalCoverage": 60,
+          "tasks": 15,
+          "travel": 64,
+          "service": 467
+        },
+        {
+          "method": "rainready",
+          "addressed": 53.04450555212611,
+          "addressedPercent": 5.899658317687401,
+          "criticalCoverage": 100,
+          "tasks": 13,
+          "travel": 55,
+          "service": 466
+        }
+      ]
+    },
+    {
+      "scenario": 12,
+      "condition": "nominal",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -38.21252301415939,
+          "addressedPercent": -16.427971581327682,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 13,
+          "service": 212
+        },
+        {
+          "method": "severity",
+          "addressed": 188.83003409947662,
+          "addressedPercent": 81.18004751316418,
+          "criticalCoverage": 40,
+          "tasks": 6,
+          "travel": 29,
+          "service": 202
+        },
+        {
+          "method": "rainready",
+          "addressed": 188.96247102248023,
+          "addressedPercent": 81.23698356019295,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 18,
+          "service": 211
+        }
+      ]
+    },
+    {
+      "scenario": 13,
+      "condition": "missing conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -25.589464106196147,
+          "addressedPercent": -2.892070792564966,
+          "criticalCoverage": 20,
+          "tasks": 15,
+          "travel": 40,
+          "service": 410
+        },
+        {
+          "method": "severity",
+          "addressed": 35.463869185651106,
+          "addressedPercent": 4.008056590693972,
+          "criticalCoverage": 80,
+          "tasks": 13,
+          "travel": 58,
+          "service": 407
+        },
+        {
+          "method": "rainready",
+          "addressed": 10.516669868595159,
+          "addressedPercent": 1.188573298596258,
+          "criticalCoverage": 100,
+          "tasks": 11,
+          "travel": 40,
+          "service": 438
+        }
+      ]
+    },
+    {
+      "scenario": 14,
+      "condition": "noisy conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -32.47014232087338,
+          "addressedPercent": -9.17751880966153,
+          "criticalCoverage": 20,
+          "tasks": 20,
+          "travel": 60,
+          "service": 572
+        },
+        {
+          "method": "severity",
+          "addressed": -123.37707918756814,
+          "addressedPercent": -34.87189719513833,
+          "criticalCoverage": 80,
+          "tasks": 18,
+          "travel": 76,
+          "service": 600
+        },
+        {
+          "method": "rainready",
+          "addressed": -123.4380057452031,
+          "addressedPercent": -34.88911777345231,
+          "criticalCoverage": 80,
+          "tasks": 19,
+          "travel": 72,
+          "service": 622
+        }
+      ]
+    },
+    {
+      "scenario": 15,
+      "condition": "missing connections",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -21.19429944666399,
+          "addressedPercent": -7.400694030575126,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 13,
+          "service": 212
+        },
+        {
+          "method": "severity",
+          "addressed": -177.93374000012523,
+          "addressedPercent": -62.131478833290934,
+          "criticalCoverage": 40,
+          "tasks": 7,
+          "travel": 33,
+          "service": 205
+        },
+        {
+          "method": "rainready",
+          "addressed": -32.771522665633086,
+          "addressedPercent": -11.443266278970267,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 21,
+          "service": 204
+        }
+      ]
+    },
+    {
+      "scenario": 16,
+      "condition": "nominal",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -4.666835163424821,
+          "addressedPercent": -1.0198167799446898,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -17.332617215242806,
+          "addressedPercent": -3.78759764540108,
+          "criticalCoverage": 0,
+          "tasks": 3,
+          "travel": 18,
+          "service": 74
+        },
+        {
+          "method": "rainready",
+          "addressed": 59.435852205963954,
+          "addressedPercent": 12.988176630921,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 24,
+          "service": 87
+        }
+      ]
+    },
+    {
+      "scenario": 17,
+      "condition": "missing conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -3.778194885676271,
+          "addressedPercent": -1.0260064117958074,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 18,
+          "service": 136
+        },
+        {
+          "method": "severity",
+          "addressed": -148.01112319965296,
+          "addressedPercent": -40.19389311961369,
+          "criticalCoverage": 20,
+          "tasks": 4,
+          "travel": 37,
+          "service": 135
+        },
+        {
+          "method": "rainready",
+          "addressed": -56.71064229300532,
+          "addressedPercent": -15.400339148801518,
+          "criticalCoverage": 60,
+          "tasks": 3,
+          "travel": 40,
+          "service": 135
+        }
+      ]
+    },
+    {
+      "scenario": 18,
+      "condition": "noisy conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.4352252594709398,
+          "addressedPercent": -0.06571314524614896,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 4,
+          "service": 40
+        },
+        {
+          "method": "severity",
+          "addressed": 39.286680464177266,
+          "addressedPercent": 5.931758976305238,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 10,
+          "service": 42
+        },
+        {
+          "method": "rainready",
+          "addressed": 76.04215068742633,
+          "addressedPercent": 11.481339339142934,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 19,
+      "condition": "missing connections",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -8.795010848435481,
+          "addressedPercent": -1.791732162109503,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 88
+        },
+        {
+          "method": "severity",
+          "addressed": -1.061431096365709,
+          "addressedPercent": -0.21623625780517342,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 16,
+          "service": 84
+        },
+        {
+          "method": "rainready",
+          "addressed": 20.071259767268543,
+          "addressedPercent": 4.0889456850944965,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 24,
+          "service": 87
+        }
+      ]
+    },
+    {
+      "scenario": 20,
+      "condition": "nominal",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -23.758264094634,
+          "addressedPercent": -6.16110406449718,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 32,
+          "service": 286
+        },
+        {
+          "method": "severity",
+          "addressed": -178.91604180407415,
+          "addressedPercent": -46.397344013521455,
+          "criticalCoverage": 20,
+          "tasks": 11,
+          "travel": 45,
+          "service": 297
+        },
+        {
+          "method": "rainready",
+          "addressed": -154.740931413037,
+          "addressedPercent": -40.128141419569,
+          "criticalCoverage": 60,
+          "tasks": 8,
+          "travel": 43,
+          "service": 298
+        }
+      ]
+    },
+    {
+      "scenario": 21,
+      "condition": "missing conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -12.05072445781525,
+          "addressedPercent": -1.7752681714007366,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 7,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": 362.48918842728597,
+          "addressedPercent": 53.40056699035271,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 16,
+          "service": 97
+        },
+        {
+          "method": "rainready",
+          "addressed": 374.4213919399772,
+          "addressedPercent": 55.15837509433098,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 16,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 22,
+      "condition": "noisy conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -15.162959082058137,
+          "addressedPercent": -2.989538905453706,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -4.301491231095383,
+          "addressedPercent": -0.8480848175633361,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 28,
+          "service": 212
+        },
+        {
+          "method": "rainready",
+          "addressed": 20.86820431624909,
+          "addressedPercent": 4.114388778124674,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 31,
+          "service": 195
+        }
+      ]
+    },
+    {
+      "scenario": 23,
+      "condition": "missing connections",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -9.426026565340095,
+          "addressedPercent": -8.667217074286915,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 32,
+          "service": 290
+        },
+        {
+          "method": "severity",
+          "addressed": 101.67072994795814,
+          "addressedPercent": 93.48608137816792,
+          "criticalCoverage": 40,
+          "tasks": 10,
+          "travel": 52,
+          "service": 294
+        },
+        {
+          "method": "rainready",
+          "addressed": 90.04868430414308,
+          "addressedPercent": 82.79962810499265,
+          "criticalCoverage": 100,
+          "tasks": 7,
+          "travel": 42,
+          "service": 286
+        }
+      ]
+    },
+    {
+      "scenario": 24,
+      "condition": "nominal",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -13.213614549237832,
+          "addressedPercent": -1.8575712433958205,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": -171.4983065006819,
+          "addressedPercent": -24.109248931067427,
+          "criticalCoverage": 40,
+          "tasks": 4,
+          "travel": 21,
+          "service": 154
+        },
+        {
+          "method": "rainready",
+          "addressed": -337.6224622358767,
+          "addressedPercent": -47.462999214702435,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 18,
+          "service": 161
+        }
+      ]
+    },
+    {
+      "scenario": 25,
+      "condition": "missing conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -18.815983361296844,
+          "addressedPercent": -4.472177355853326,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 302
+        },
+        {
+          "method": "severity",
+          "addressed": 318.54017290353227,
+          "addressedPercent": 75.71053400902855,
+          "criticalCoverage": 40,
+          "tasks": 10,
+          "travel": 51,
+          "service": 294
+        },
+        {
+          "method": "rainready",
+          "addressed": 301.4869114721642,
+          "addressedPercent": 71.6573198797217,
+          "criticalCoverage": 100,
+          "tasks": 8,
+          "travel": 35,
+          "service": 324
+        }
+      ]
+    },
+    {
+      "scenario": 26,
+      "condition": "noisy conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -14.230545320689771,
+          "addressedPercent": -4.6951838907078445,
+          "criticalCoverage": 20,
+          "tasks": 17,
+          "travel": 50,
+          "service": 458
+        },
+        {
+          "method": "severity",
+          "addressed": 254.4728488809482,
+          "addressedPercent": 83.96001655335344,
+          "criticalCoverage": 60,
+          "tasks": 14,
+          "travel": 55,
+          "service": 458
+        },
+        {
+          "method": "rainready",
+          "addressed": 295.3685941714783,
+          "addressedPercent": 97.45303738702599,
+          "criticalCoverage": 100,
+          "tasks": 12,
+          "travel": 53,
+          "service": 460
+        }
+      ]
+    },
+    {
+      "scenario": 27,
+      "condition": "missing connections",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -8.019766826668501,
+          "addressedPercent": -1.9099855391464602,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": -240.2562334667232,
+          "addressedPercent": -57.21936080302018,
+          "criticalCoverage": 20,
+          "tasks": 5,
+          "travel": 17,
+          "service": 161
+        },
+        {
+          "method": "rainready",
+          "addressed": 204.5211093221453,
+          "addressedPercent": 48.708693120166785,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 19,
+          "service": 157
+        }
+      ]
+    },
+    {
+      "scenario": 28,
+      "condition": "nominal",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -34.06430562504687,
+          "addressedPercent": -6.688887042525457,
+          "criticalCoverage": 20,
+          "tasks": 16,
+          "travel": 43,
+          "service": 428
+        },
+        {
+          "method": "severity",
+          "addressed": 211.51477804662153,
+          "addressedPercent": 41.533165940667786,
+          "criticalCoverage": 40,
+          "tasks": 13,
+          "travel": 49,
+          "service": 416
+        },
+        {
+          "method": "rainready",
+          "addressed": 184.70505018294216,
+          "addressedPercent": 36.268792044575726,
+          "criticalCoverage": 100,
+          "tasks": 11,
+          "travel": 38,
+          "service": 434
+        }
+      ]
+    },
+    {
+      "scenario": 29,
+      "condition": "missing conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -69.50288375349396,
+          "addressedPercent": -9.024016689844878,
+          "criticalCoverage": 20,
+          "tasks": 21,
+          "travel": 62,
+          "service": 582
+        },
+        {
+          "method": "severity",
+          "addressed": 170.7061694409224,
+          "addressedPercent": 22.1639051346115,
+          "criticalCoverage": 60,
+          "tasks": 20,
+          "travel": 87,
+          "service": 590
+        },
+        {
+          "method": "rainready",
+          "addressed": 21.28080836047286,
+          "addressedPercent": 2.76302736587737,
+          "criticalCoverage": 100,
+          "tasks": 19,
+          "travel": 64,
+          "service": 622
+        }
+      ]
+    },
+    {
+      "scenario": 30,
+      "condition": "noisy conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -13.811496459566627,
+          "addressedPercent": -5.056015189466655,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 16,
+          "service": 208
+        },
+        {
+          "method": "severity",
+          "addressed": 138.12426363105197,
+          "addressedPercent": 50.56355601993967,
+          "criticalCoverage": 40,
+          "tasks": 7,
+          "travel": 24,
+          "service": 205
+        },
+        {
+          "method": "rainready",
+          "addressed": 248.66309349672835,
+          "addressedPercent": 91.02883105098918,
+          "criticalCoverage": 80,
+          "tasks": 5,
+          "travel": 20,
+          "service": 211
+        }
+      ]
+    },
+    {
+      "scenario": 31,
+      "condition": "missing connections",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -30.155591464039617,
+          "addressedPercent": -3.7584711131949797,
+          "criticalCoverage": 20,
+          "tasks": 15,
+          "travel": 42,
+          "service": 410
+        },
+        {
+          "method": "severity",
+          "addressed": 190.8652583860187,
+          "addressedPercent": 23.78867484697811,
+          "criticalCoverage": 80,
+          "tasks": 12,
+          "travel": 56,
+          "service": 405
+        },
+        {
+          "method": "rainready",
+          "addressed": 195.13707095075858,
+          "addressedPercent": 24.321096309999465,
+          "criticalCoverage": 80,
+          "tasks": 13,
+          "travel": 47,
+          "service": 427
+        }
+      ]
+    },
+    {
+      "scenario": 32,
+      "condition": "nominal",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -6.031304084963608,
+          "addressedPercent": -1.4790649372710547,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 18,
+          "service": 136
+        },
+        {
+          "method": "severity",
+          "addressed": -232.59502522317314,
+          "addressedPercent": -57.03959567366893,
+          "criticalCoverage": 20,
+          "tasks": 4,
+          "travel": 34,
+          "service": 127
+        },
+        {
+          "method": "rainready",
+          "addressed": 82.03916946994133,
+          "addressedPercent": 20.11857756406927,
+          "criticalCoverage": 60,
+          "tasks": 3,
+          "travel": 40,
+          "service": 135
+        }
+      ]
+    },
+    {
+      "scenario": 33,
+      "condition": "missing conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.30056386125335166,
+          "addressedPercent": -0.11004282828870252,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 5,
+          "service": 48
+        },
+        {
+          "method": "severity",
+          "addressed": -6.879792676420493,
+          "addressedPercent": -2.5188385622816494,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 7,
+          "service": 52
+        },
+        {
+          "method": "rainready",
+          "addressed": 95.44638800364427,
+          "addressedPercent": 34.94495459987633,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 34,
+      "condition": "noisy conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -3.647598303643349,
+          "addressedPercent": -1.9354346603787944,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -0.5170718880888217,
+          "addressedPercent": -0.2743610372652651,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 22,
+          "service": 93
+        },
+        {
+          "method": "rainready",
+          "addressed": 159.637817800304,
+          "addressedPercent": 84.70465768375169,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 28,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 35,
+      "condition": "missing connections",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -3.744943461828939,
+          "addressedPercent": -0.4239198553868881,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 18,
+          "service": 136
+        },
+        {
+          "method": "severity",
+          "addressed": -6.0581074121362235,
+          "addressedPercent": -0.6857652309700826,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 26,
+          "service": 140
+        },
+        {
+          "method": "rainready",
+          "addressed": -164.36156073094082,
+          "addressedPercent": -18.605388777270228,
+          "criticalCoverage": 40,
+          "tasks": 3,
+          "travel": 34,
+          "service": 132
+        }
+      ]
+    },
+    {
+      "scenario": 36,
+      "condition": "nominal",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -2.376436603364482,
+          "addressedPercent": -0.36571169253351365,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 7,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": 461.0993495829792,
+          "addressedPercent": 70.95894050922863,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 17,
+          "service": 89
+        },
+        {
+          "method": "rainready",
+          "addressed": 461.54563381732424,
+          "addressedPercent": 71.02761954003563,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 16,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 37,
+      "condition": "missing conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -7.530275539115394,
+          "addressedPercent": -1.5894496340530386,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -229.01670930106314,
+          "addressedPercent": -48.33960230270238,
+          "criticalCoverage": 20,
+          "tasks": 7,
+          "travel": 35,
+          "service": 197
+        },
+        {
+          "method": "rainready",
+          "addressed": -225.3783024062546,
+          "addressedPercent": -47.571627149940724,
+          "criticalCoverage": 40,
+          "tasks": 5,
+          "travel": 33,
+          "service": 192
+        }
+      ]
+    },
+    {
+      "scenario": 38,
+      "condition": "noisy conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -20.40669376244273,
+          "addressedPercent": -4.277636406307817,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 32,
+          "service": 286
+        },
+        {
+          "method": "severity",
+          "addressed": -31.87786177660672,
+          "addressedPercent": -6.682214359575829,
+          "criticalCoverage": 40,
+          "tasks": 9,
+          "travel": 48,
+          "service": 292
+        },
+        {
+          "method": "rainready",
+          "addressed": -94.7585638456273,
+          "addressedPercent": -19.86322170725703,
+          "criticalCoverage": 80,
+          "tasks": 7,
+          "travel": 43,
+          "service": 286
+        }
+      ]
+    },
+    {
+      "scenario": 39,
+      "condition": "missing connections",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": 2.1010013100691083,
+          "addressedPercent": 1.4134030059876146,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 8,
+          "service": 108
+        },
+        {
+          "method": "severity",
+          "addressed": 13.832715575268736,
+          "addressedPercent": 9.305659011899154,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 12,
+          "service": 102
+        },
+        {
+          "method": "rainready",
+          "addressed": 1.7816304090454196,
+          "addressedPercent": 1.1985531677849879,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 12,
+          "service": 106
+        }
+      ]
+    },
+    {
+      "scenario": 40,
+      "condition": "nominal",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -43.90784021981699,
+          "addressedPercent": -8.937130103297328,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 302
+        },
+        {
+          "method": "severity",
+          "addressed": -253.760172191999,
+          "addressedPercent": -51.651086971284435,
+          "criticalCoverage": 20,
+          "tasks": 11,
+          "travel": 42,
+          "service": 313
+        },
+        {
+          "method": "rainready",
+          "addressed": -174.1006063442784,
+          "addressedPercent": -35.43694616205501,
+          "criticalCoverage": 60,
+          "tasks": 8,
+          "travel": 37,
+          "service": 313
+        }
+      ]
+    },
+    {
+      "scenario": 41,
+      "condition": "missing conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -83.56473561969692,
+          "addressedPercent": -91.50620020519894,
+          "criticalCoverage": 20,
+          "tasks": 16,
+          "travel": 49,
+          "service": 448
+        },
+        {
+          "method": "severity",
+          "addressed": 52.518239368954035,
+          "addressedPercent": 57.509241074979414,
+          "criticalCoverage": 40,
+          "tasks": 16,
+          "travel": 65,
+          "service": 454
+        },
+        {
+          "method": "rainready",
+          "addressed": 82.92837130045282,
+          "addressedPercent": 90.80935984103856,
+          "criticalCoverage": 100,
+          "tasks": 13,
+          "travel": 54,
+          "service": 478
+        }
+      ]
+    },
+    {
+      "scenario": 42,
+      "condition": "noisy conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -5.2201645319372005,
+          "addressedPercent": -1.7413288545484258,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": -203.07651126865716,
+          "addressedPercent": -67.7417323897858,
+          "criticalCoverage": 20,
+          "tasks": 5,
+          "travel": 19,
+          "service": 149
+        },
+        {
+          "method": "rainready",
+          "addressed": 109.2427117166531,
+          "addressedPercent": 36.44089853825548,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 19,
+          "service": 161
+        }
+      ]
+    },
+    {
+      "scenario": 43,
+      "condition": "missing connections",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -23.91072380364176,
+          "addressedPercent": -4.644686955752587,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 290
+        },
+        {
+          "method": "severity",
+          "addressed": -146.91154129569395,
+          "addressedPercent": -28.537744198345415,
+          "criticalCoverage": 40,
+          "tasks": 10,
+          "travel": 34,
+          "service": 307
+        },
+        {
+          "method": "rainready",
+          "addressed": 84.49546588387705,
+          "addressedPercent": 16.4133462221377,
+          "criticalCoverage": 60,
+          "tasks": 9,
+          "travel": 36,
+          "service": 320
+        }
+      ]
+    },
+    {
+      "scenario": 44,
+      "condition": "nominal",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -156.96565170082727,
+          "addressedPercent": -25.09701786264457,
+          "criticalCoverage": 40,
+          "tasks": 20,
+          "travel": 67,
+          "service": 591
+        },
+        {
+          "method": "severity",
+          "addressed": 168.99635741683926,
+          "addressedPercent": 27.02059052318086,
+          "criticalCoverage": 100,
+          "tasks": 19,
+          "travel": 81,
+          "service": 618
+        },
+        {
+          "method": "rainready",
+          "addressed": 166.04041783977482,
+          "addressedPercent": 26.54796949072798,
+          "criticalCoverage": 100,
+          "tasks": 19,
+          "travel": 58,
+          "service": 630
+        }
+      ]
+    },
+    {
+      "scenario": 45,
+      "condition": "missing conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -3.2829180186823805,
+          "addressedPercent": -1.2453030599681538,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 14,
+          "service": 216
+        },
+        {
+          "method": "severity",
+          "addressed": -3.4444553341167534,
+          "addressedPercent": -1.3065787031808964,
+          "criticalCoverage": 20,
+          "tasks": 7,
+          "travel": 28,
+          "service": 205
+        },
+        {
+          "method": "rainready",
+          "addressed": -221.38365885065372,
+          "addressedPercent": -83.97704305278836,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 18,
+          "service": 211
+        }
+      ]
+    },
+    {
+      "scenario": 46,
+      "condition": "noisy conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -50.12380344818121,
+          "addressedPercent": -5.259566070730324,
+          "criticalCoverage": 20,
+          "tasks": 16,
+          "travel": 43,
+          "service": 428
+        },
+        {
+          "method": "severity",
+          "addressed": -69.51892603418992,
+          "addressedPercent": -7.29472544957687,
+          "criticalCoverage": 0,
+          "tasks": 14,
+          "travel": 57,
+          "service": 408
+        },
+        {
+          "method": "rainready",
+          "addressed": 224.27306847533555,
+          "addressedPercent": 23.533310331306385,
+          "criticalCoverage": 80,
+          "tasks": 10,
+          "travel": 48,
+          "service": 408
+        }
+      ]
+    },
+    {
+      "scenario": 47,
+      "condition": "missing connections",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -74.54237517085448,
+          "addressedPercent": -9.334707032485582,
+          "criticalCoverage": 0,
+          "tasks": 22,
+          "travel": 64,
+          "service": 604
+        },
+        {
+          "method": "severity",
+          "addressed": -53.22038606234662,
+          "addressedPercent": -6.664621443965317,
+          "criticalCoverage": 80,
+          "tasks": 20,
+          "travel": 83,
+          "service": 596
+        },
+        {
+          "method": "rainready",
+          "addressed": -52.91612680233027,
+          "addressedPercent": -6.626520014440652,
+          "criticalCoverage": 80,
+          "tasks": 19,
+          "travel": 67,
+          "service": 618
+        }
+      ]
+    },
+    {
+      "scenario": 48,
+      "condition": "nominal",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.5620057588400869,
+          "addressedPercent": -0.08116156225629868,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 4,
+          "service": 40
+        },
+        {
+          "method": "severity",
+          "addressed": -17.406248091510633,
+          "addressedPercent": -2.513707850687159,
+          "criticalCoverage": 0,
+          "tasks": 1,
+          "travel": 12,
+          "service": 34
+        },
+        {
+          "method": "rainready",
+          "addressed": 232.19406112027337,
+          "addressedPercent": 33.53209900562267,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 49,
+      "condition": "missing conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -6.65889700469728,
+          "addressedPercent": -1.788710775657058,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -225.94403906103696,
+          "addressedPercent": -60.6930152364369,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 17,
+          "service": 89
+        },
+        {
+          "method": "rainready",
+          "addressed": 9.604092968307441,
+          "addressedPercent": 2.579848369888501,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 28,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 50,
+      "condition": "noisy conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -16.429036503684053,
+          "addressedPercent": -39.83009491882637,
+          "criticalCoverage": 0,
+          "tasks": 5,
+          "travel": 19,
+          "service": 130
+        },
+        {
+          "method": "severity",
+          "addressed": -51.68797968737602,
+          "addressedPercent": -125.31088701695346,
+          "criticalCoverage": 20,
+          "tasks": 5,
+          "travel": 34,
+          "service": 137
+        },
+        {
+          "method": "rainready",
+          "addressed": 31.44515476685053,
+          "addressedPercent": 76.23475051747491,
+          "criticalCoverage": 60,
+          "tasks": 3,
+          "travel": 40,
+          "service": 135
+        }
+      ]
+    },
+    {
+      "scenario": 51,
+      "condition": "missing connections",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.23756948103357445,
+          "addressedPercent": -0.03532528679702634,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 4,
+          "service": 40
+        },
+        {
+          "method": "severity",
+          "addressed": -215.1005698403343,
+          "addressedPercent": -31.984282184544355,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 12,
+          "service": 45
+        },
+        {
+          "method": "rainready",
+          "addressed": 80.94447978891321,
+          "addressedPercent": 12.036002902137751,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 52,
+      "condition": "nominal",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -27.111030782821388,
+          "addressedPercent": -6.9197646045933245,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -19.361075378742726,
+          "addressedPercent": -4.941681678793948,
+          "criticalCoverage": 20,
+          "tasks": 6,
+          "travel": 30,
+          "service": 204
+        },
+        {
+          "method": "rainready",
+          "addressed": -120.31258089179545,
+          "addressedPercent": -30.708339546788604,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 29,
+          "service": 192
+        }
+      ]
+    },
+    {
+      "scenario": 53,
+      "condition": "missing conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -7.561974046703767,
+          "addressedPercent": -2.911851302713405,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 32,
+          "service": 286
+        },
+        {
+          "method": "severity",
+          "addressed": -0.8512461158580891,
+          "addressedPercent": -0.32778505930889285,
+          "criticalCoverage": 20,
+          "tasks": 9,
+          "travel": 48,
+          "service": 289
+        },
+        {
+          "method": "rainready",
+          "addressed": -30.163861231549504,
+          "addressedPercent": -11.615046293400027,
+          "criticalCoverage": 80,
+          "tasks": 7,
+          "travel": 44,
+          "service": 282
+        }
+      ]
+    },
+    {
+      "scenario": 54,
+      "condition": "noisy conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -7.502711514179396,
+          "addressedPercent": -1.2654194820889202,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 7,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -7.838405467052098,
+          "addressedPercent": -1.322038168170844,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 17,
+          "service": 92
+        },
+        {
+          "method": "rainready",
+          "addressed": -47.46150096086808,
+          "addressedPercent": -8.004933663190881,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 15,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 55,
+      "condition": "missing connections",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -5.454814532716,
+          "addressedPercent": -0.7462059356654294,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 20,
+          "service": 196
+        },
+        {
+          "method": "severity",
+          "addressed": 416.72133961310874,
+          "addressedPercent": 57.00650962057939,
+          "criticalCoverage": 20,
+          "tasks": 6,
+          "travel": 33,
+          "service": 179
+        },
+        {
+          "method": "rainready",
+          "addressed": 441.0131879120941,
+          "addressedPercent": 60.32957794495037,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 30,
+          "service": 192
+        }
+      ]
+    },
+    {
+      "scenario": 56,
+      "condition": "nominal",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -38.276885609389524,
+          "addressedPercent": -4.918330908437406,
+          "criticalCoverage": 20,
+          "tasks": 16,
+          "travel": 48,
+          "service": 448
+        },
+        {
+          "method": "severity",
+          "addressed": 372.48375316416093,
+          "addressedPercent": 47.86174023595753,
+          "criticalCoverage": 40,
+          "tasks": 17,
+          "travel": 62,
+          "service": 465
+        },
+        {
+          "method": "rainready",
+          "addressed": 242.02323271747775,
+          "addressedPercent": 31.098411667596874,
+          "criticalCoverage": 80,
+          "tasks": 14,
+          "travel": 50,
+          "service": 469
+        }
+      ]
+    },
+    {
+      "scenario": 57,
+      "condition": "missing conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -30.15730829156871,
+          "addressedPercent": -6.928288429347394,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": 60.849461995939805,
+          "addressedPercent": 13.97945132909453,
+          "criticalCoverage": 20,
+          "tasks": 6,
+          "travel": 26,
+          "service": 151
+        },
+        {
+          "method": "rainready",
+          "addressed": 133.55536656941115,
+          "addressedPercent": 30.68278149806879,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 17,
+          "service": 157
+        }
+      ]
+    },
+    {
+      "scenario": 58,
+      "condition": "noisy conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -30.807381621759532,
+          "addressedPercent": -3.8645791344438623,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 302
+        },
+        {
+          "method": "severity",
+          "addressed": 312.53835725829975,
+          "addressedPercent": 39.205838035929865,
+          "criticalCoverage": 20,
+          "tasks": 10,
+          "travel": 39,
+          "service": 315
+        },
+        {
+          "method": "rainready",
+          "addressed": 258.56593459047326,
+          "addressedPercent": 32.43536006937185,
+          "criticalCoverage": 60,
+          "tasks": 8,
+          "travel": 35,
+          "service": 313
+        }
+      ]
+    },
+    {
+      "scenario": 59,
+      "condition": "missing connections",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -40.273603147599886,
+          "addressedPercent": -9.862260684930783,
+          "criticalCoverage": 20,
+          "tasks": 17,
+          "travel": 50,
+          "service": 458
+        },
+        {
+          "method": "severity",
+          "addressed": -259.7486515926388,
+          "addressedPercent": -63.60764159038328,
+          "criticalCoverage": 40,
+          "tasks": 15,
+          "travel": 69,
+          "service": 456
+        },
+        {
+          "method": "rainready",
+          "addressed": -118.7475599723698,
+          "addressedPercent": -29.079081597315593,
+          "criticalCoverage": 100,
+          "tasks": 13,
+          "travel": 59,
+          "service": 470
+        }
+      ]
+    },
+    {
+      "scenario": 60,
+      "condition": "nominal",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -17.087643395946287,
+          "addressedPercent": -6.68768015680849,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 15,
+          "service": 216
+        },
+        {
+          "method": "severity",
+          "addressed": -142.27348482413205,
+          "addressedPercent": -55.68231611879623,
+          "criticalCoverage": 40,
+          "tasks": 6,
+          "travel": 24,
+          "service": 203
+        },
+        {
+          "method": "rainready",
+          "addressed": 79.39636552035091,
+          "addressedPercent": 31.073769852847512,
+          "criticalCoverage": 80,
+          "tasks": 5,
+          "travel": 24,
+          "service": 211
+        }
+      ]
+    },
+    {
+      "scenario": 61,
+      "condition": "missing conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -20.445685628323417,
+          "addressedPercent": -2.773533539963154,
+          "criticalCoverage": 20,
+          "tasks": 15,
+          "travel": 39,
+          "service": 422
+        },
+        {
+          "method": "severity",
+          "addressed": -2.9429481375336763,
+          "addressedPercent": -0.39922189523027884,
+          "criticalCoverage": 80,
+          "tasks": 12,
+          "travel": 50,
+          "service": 413
+        },
+        {
+          "method": "rainready",
+          "addressed": -18.696025201060934,
+          "addressedPercent": -2.536185574882626,
+          "criticalCoverage": 100,
+          "tasks": 11,
+          "travel": 44,
+          "service": 434
+        }
+      ]
+    },
+    {
+      "scenario": 62,
+      "condition": "noisy conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -39.625649053111516,
+          "addressedPercent": -45.31943315610424,
+          "criticalCoverage": 20,
+          "tasks": 22,
+          "travel": 63,
+          "service": 604
+        },
+        {
+          "method": "severity",
+          "addressed": 87.3237591412263,
+          "addressedPercent": 99.8712540969673,
+          "criticalCoverage": 80,
+          "tasks": 20,
+          "travel": 93,
+          "service": 604
+        },
+        {
+          "method": "rainready",
+          "addressed": 86.05643204649226,
+          "addressedPercent": 98.42182558464849,
+          "criticalCoverage": 100,
+          "tasks": 20,
+          "travel": 69,
+          "service": 640
+        }
+      ]
+    },
+    {
+      "scenario": 63,
+      "condition": "missing connections",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -6.921273872466713,
+          "addressedPercent": -1.7774119662541192,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 13,
+          "service": 212
+        },
+        {
+          "method": "severity",
+          "addressed": -19.72536963452353,
+          "addressedPercent": -5.06555710310196,
+          "criticalCoverage": 0,
+          "tasks": 9,
+          "travel": 32,
+          "service": 206
+        },
+        {
+          "method": "rainready",
+          "addressed": -32.037206312239675,
+          "addressedPercent": -8.227288056213334,
+          "criticalCoverage": 60,
+          "tasks": 6,
+          "travel": 22,
+          "service": 218
+        }
+      ]
+    },
+    {
+      "scenario": 64,
+      "condition": "nominal",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -5.55556420456395,
+          "addressedPercent": -1.112898526805042,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -14.985275427835461,
+          "addressedPercent": -3.001871697154627,
+          "criticalCoverage": 0,
+          "tasks": 3,
+          "travel": 19,
+          "service": 74
+        },
+        {
+          "method": "rainready",
+          "addressed": 139.21087570278894,
+          "addressedPercent": 27.886920712319213,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 28,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 65,
+      "condition": "missing conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.0983116265538797,
+          "addressedPercent": -0.025611314301563166,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 19,
+          "service": 140
+        },
+        {
+          "method": "severity",
+          "addressed": 358.3571845951616,
+          "addressedPercent": 93.35618592232294,
+          "criticalCoverage": 20,
+          "tasks": 4,
+          "travel": 36,
+          "service": 135
+        },
+        {
+          "method": "rainready",
+          "addressed": 358.60077409562643,
+          "addressedPercent": 93.41964380086334,
+          "criticalCoverage": 40,
+          "tasks": 3,
+          "travel": 38,
+          "service": 132
+        }
+      ]
+    },
+    {
+      "scenario": 66,
+      "condition": "noisy conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.44907461915715885,
+          "addressedPercent": -0.06588011817429894,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 4,
+          "service": 40
+        },
+        {
+          "method": "severity",
+          "addressed": -22.03399242292778,
+          "addressedPercent": -3.232429451030909,
+          "criticalCoverage": 0,
+          "tasks": 1,
+          "travel": 10,
+          "service": 34
+        },
+        {
+          "method": "rainready",
+          "addressed": 193.56118222149502,
+          "addressedPercent": 28.39580108678208,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 67,
+      "condition": "missing connections",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -6.909441195300076,
+          "addressedPercent": -2.195289072625524,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -4.486358651964622,
+          "addressedPercent": -1.4254197765278436,
+          "criticalCoverage": 0,
+          "tasks": 3,
+          "travel": 20,
+          "service": 78
+        },
+        {
+          "method": "rainready",
+          "addressed": -4.207720874847666,
+          "addressedPercent": -1.3368901183347033,
+          "criticalCoverage": 20,
+          "tasks": 2,
+          "travel": 22,
+          "service": 79
+        }
+      ]
+    },
+    {
+      "scenario": 68,
+      "condition": "nominal",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -41.5317236416829,
+          "addressedPercent": -5.365850309937323,
+          "criticalCoverage": 0,
+          "tasks": 12,
+          "travel": 37,
+          "service": 304
+        },
+        {
+          "method": "severity",
+          "addressed": 50.890236874028574,
+          "addressedPercent": 6.574959316863666,
+          "criticalCoverage": 20,
+          "tasks": 10,
+          "travel": 50,
+          "service": 283
+        },
+        {
+          "method": "rainready",
+          "addressed": 123.06921872547343,
+          "addressedPercent": 15.9003996833652,
+          "criticalCoverage": 80,
+          "tasks": 7,
+          "travel": 42,
+          "service": 286
+        }
+      ]
+    },
+    {
+      "scenario": 69,
+      "condition": "missing conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -3.799322894798422,
+          "addressedPercent": -0.9086834322543295,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 7,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -0.583722393146104,
+          "addressedPercent": -0.13960878882231853,
+          "criticalCoverage": 0,
+          "tasks": 3,
+          "travel": 13,
+          "service": 90
+        },
+        {
+          "method": "rainready",
+          "addressed": 264.37749608565696,
+          "addressedPercent": 63.23112228308416,
+          "criticalCoverage": 20,
+          "tasks": 3,
+          "travel": 15,
+          "service": 105
+        }
+      ]
+    },
+    {
+      "scenario": 70,
+      "condition": "noisy conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -22.52113057428835,
+          "addressedPercent": -3.1201396042535503,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -7.649141315426277,
+          "addressedPercent": -1.0597331549616391,
+          "criticalCoverage": 20,
+          "tasks": 7,
+          "travel": 32,
+          "service": 194
+        },
+        {
+          "method": "rainready",
+          "addressed": 255.69266882803203,
+          "addressedPercent": 35.424368234801186,
+          "criticalCoverage": 80,
+          "tasks": 5,
+          "travel": 30,
+          "service": 195
+        }
+      ]
+    },
+    {
+      "scenario": 71,
+      "condition": "missing connections",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -44.1465489948946,
+          "addressedPercent": -16.702307737095968,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 32,
+          "service": 286
+        },
+        {
+          "method": "severity",
+          "addressed": -138.69713199783405,
+          "addressedPercent": -52.47436625563522,
+          "criticalCoverage": 20,
+          "tasks": 10,
+          "travel": 45,
+          "service": 287
+        },
+        {
+          "method": "rainready",
+          "addressed": 246.3139486108642,
+          "addressedPercent": 93.18987470829639,
+          "criticalCoverage": 60,
+          "tasks": 8,
+          "travel": 43,
+          "service": 293
+        }
+      ]
+    },
+    {
+      "scenario": 72,
+      "condition": "nominal",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -10.276459249507639,
+          "addressedPercent": -3.9725442676585967,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": -179.9945705614091,
+          "addressedPercent": -69.58003550957058,
+          "criticalCoverage": 20,
+          "tasks": 5,
+          "travel": 19,
+          "service": 153
+        },
+        {
+          "method": "rainready",
+          "addressed": -5.2945341730996915,
+          "addressedPercent": -2.0466943787353062,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 19,
+          "service": 153
+        }
+      ]
+    },
+    {
+      "scenario": 73,
+      "condition": "missing conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -79.60246349219318,
+          "addressedPercent": -16.065377924210384,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 302
+        },
+        {
+          "method": "severity",
+          "addressed": -104.99153926084836,
+          "addressedPercent": -21.18940398415588,
+          "criticalCoverage": 40,
+          "tasks": 11,
+          "travel": 43,
+          "service": 309
+        },
+        {
+          "method": "rainready",
+          "addressed": 193.0173528546856,
+          "addressedPercent": 38.954783350961314,
+          "criticalCoverage": 100,
+          "tasks": 8,
+          "travel": 35,
+          "service": 320
+        }
+      ]
+    },
+    {
+      "scenario": 74,
+      "condition": "noisy conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -51.42956047626376,
+          "addressedPercent": -9.012109905937923,
+          "criticalCoverage": 20,
+          "tasks": 17,
+          "travel": 52,
+          "service": 466
+        },
+        {
+          "method": "severity",
+          "addressed": 177.97461688202725,
+          "addressedPercent": 31.186865937699064,
+          "criticalCoverage": 80,
+          "tasks": 14,
+          "travel": 66,
+          "service": 433
+        },
+        {
+          "method": "rainready",
+          "addressed": 106.43945072820588,
+          "addressedPercent": 18.651608518664567,
+          "criticalCoverage": 100,
+          "tasks": 13,
+          "travel": 61,
+          "service": 474
+        }
+      ]
+    },
+    {
+      "scenario": 75,
+      "condition": "missing connections",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -10.248675615813909,
+          "addressedPercent": -1.8707081509869339,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": 313.75767284265476,
+          "addressedPercent": 57.27072043491863,
+          "criticalCoverage": 40,
+          "tasks": 4,
+          "travel": 20,
+          "service": 154
+        },
+        {
+          "method": "rainready",
+          "addressed": 328.166353224246,
+          "addressedPercent": 59.90076131485604,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 19,
+          "service": 157
+        }
+      ]
+    },
+    {
+      "scenario": 76,
+      "condition": "nominal",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -19.571970760406742,
+          "addressedPercent": -10.51008413819916,
+          "criticalCoverage": 20,
+          "tasks": 16,
+          "travel": 43,
+          "service": 428
+        },
+        {
+          "method": "severity",
+          "addressed": -71.89636208930068,
+          "addressedPercent": -38.60811075385435,
+          "criticalCoverage": 40,
+          "tasks": 15,
+          "travel": 49,
+          "service": 416
+        },
+        {
+          "method": "rainready",
+          "addressed": 21.37862538677018,
+          "addressedPercent": 11.48025175004531,
+          "criticalCoverage": 100,
+          "tasks": 11,
+          "travel": 45,
+          "service": 430
+        }
+      ]
+    },
+    {
+      "scenario": 77,
+      "condition": "missing conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -49.92486511103061,
+          "addressedPercent": -5.6514021689528295,
+          "criticalCoverage": 20,
+          "tasks": 20,
+          "travel": 61,
+          "service": 580
+        },
+        {
+          "method": "severity",
+          "addressed": 392.7809503282745,
+          "addressedPercent": 44.462075354072816,
+          "criticalCoverage": 60,
+          "tasks": 20,
+          "travel": 87,
+          "service": 606
+        },
+        {
+          "method": "rainready",
+          "addressed": 294.27767172355004,
+          "addressedPercent": 33.31168684290368,
+          "criticalCoverage": 100,
+          "tasks": 19,
+          "travel": 57,
+          "service": 650
+        }
+      ]
+    },
+    {
+      "scenario": 78,
+      "condition": "noisy conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -26.56129094148048,
+          "addressedPercent": -2.999516775890028,
+          "criticalCoverage": 0,
+          "tasks": 9,
+          "travel": 15,
+          "service": 214
+        },
+        {
+          "method": "severity",
+          "addressed": 420.68594518753747,
+          "addressedPercent": 47.5072748817546,
+          "criticalCoverage": 40,
+          "tasks": 7,
+          "travel": 28,
+          "service": 204
+        },
+        {
+          "method": "rainready",
+          "addressed": 341.5406661786452,
+          "addressedPercent": 38.56954694365472,
+          "criticalCoverage": 80,
+          "tasks": 5,
+          "travel": 20,
+          "service": 219
+        }
+      ]
+    },
+    {
+      "scenario": 79,
+      "condition": "missing connections",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": 22.910984267123922,
+          "addressedPercent": 4.270467218899602,
+          "criticalCoverage": 20,
+          "tasks": 15,
+          "travel": 41,
+          "service": 410
+        },
+        {
+          "method": "severity",
+          "addressed": 203.20348688502145,
+          "addressedPercent": 37.87588605496054,
+          "criticalCoverage": 80,
+          "tasks": 12,
+          "travel": 54,
+          "service": 417
+        },
+        {
+          "method": "rainready",
+          "addressed": 58.24251358094813,
+          "addressedPercent": 10.856048002732825,
+          "criticalCoverage": 100,
+          "tasks": 11,
+          "travel": 40,
+          "service": 422
+        }
+      ]
+    },
+    {
+      "scenario": 80,
+      "condition": "nominal",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -1.2617064277301893,
+          "addressedPercent": -0.2746599764862948,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 18,
+          "service": 136
+        },
+        {
+          "method": "severity",
+          "addressed": -63.156637600069985,
+          "addressedPercent": -13.748523600212778,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 24,
+          "service": 128
+        },
+        {
+          "method": "rainready",
+          "addressed": -79.28016421264158,
+          "addressedPercent": -17.25844266137815,
+          "criticalCoverage": 60,
+          "tasks": 3,
+          "travel": 38,
+          "service": 135
+        }
+      ]
+    },
+    {
+      "scenario": 81,
+      "condition": "missing conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -0.4818594765612261,
+          "addressedPercent": -0.051384168329629054,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 4,
+          "service": 40
+        },
+        {
+          "method": "severity",
+          "addressed": -0.4431149667286718,
+          "addressedPercent": -0.04725256043993349,
+          "criticalCoverage": 0,
+          "tasks": 2,
+          "travel": 10,
+          "service": 40
+        },
+        {
+          "method": "rainready",
+          "addressed": 185.87889908194222,
+          "addressedPercent": 19.821614192408752,
+          "criticalCoverage": 20,
+          "tasks": 1,
+          "travel": 14,
+          "service": 45
+        }
+      ]
+    },
+    {
+      "scenario": 82,
+      "condition": "noisy conditions",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -4.883004973465177,
+          "addressedPercent": -0.4611813044960376,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 12,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -13.963157672240413,
+          "addressedPercent": -1.3187672970150446,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 23,
+          "service": 96
+        },
+        {
+          "method": "rainready",
+          "addressed": 38.01180555956216,
+          "addressedPercent": 3.5900709029522826,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 24,
+          "service": 87
+        }
+      ]
+    },
+    {
+      "scenario": 83,
+      "condition": "missing connections",
+      "deadline": 60,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -11.868791063123467,
+          "addressedPercent": -1.8506692801133844,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 18,
+          "service": 136
+        },
+        {
+          "method": "severity",
+          "addressed": -1.1776295888294044,
+          "addressedPercent": -0.1836246751508312,
+          "criticalCoverage": 0,
+          "tasks": 6,
+          "travel": 26,
+          "service": 128
+        },
+        {
+          "method": "rainready",
+          "addressed": 44.77808407517148,
+          "addressedPercent": 6.982128523412204,
+          "criticalCoverage": 60,
+          "tasks": 3,
+          "travel": 40,
+          "service": 135
+        }
+      ]
+    },
+    {
+      "scenario": 84,
+      "condition": "nominal",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -3.7755118989210814,
+          "addressedPercent": -0.7665182649262383,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 7,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -30.228469747268377,
+          "addressedPercent": -6.137094731094045,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 14,
+          "service": 100
+        },
+        {
+          "method": "rainready",
+          "addressed": 102.30643317735985,
+          "addressedPercent": 20.77062706975227,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 16,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 85,
+      "condition": "missing conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -20.37658612374213,
+          "addressedPercent": -6.149770564896785,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 20,
+          "service": 190
+        },
+        {
+          "method": "severity",
+          "addressed": -67.1837894493587,
+          "addressedPercent": -20.27645299781022,
+          "criticalCoverage": 40,
+          "tasks": 6,
+          "travel": 28,
+          "service": 199
+        },
+        {
+          "method": "rainready",
+          "addressed": -172.92040336759356,
+          "addressedPercent": -52.18836954542855,
+          "criticalCoverage": 80,
+          "tasks": 5,
+          "travel": 29,
+          "service": 195
+        }
+      ]
+    },
+    {
+      "scenario": 86,
+      "condition": "noisy conditions",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -24.8135556180373,
+          "addressedPercent": -3.86290751197368,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 32,
+          "service": 286
+        },
+        {
+          "method": "severity",
+          "addressed": -187.7581304868761,
+          "addressedPercent": -29.229680093273846,
+          "criticalCoverage": 20,
+          "tasks": 10,
+          "travel": 45,
+          "service": 287
+        },
+        {
+          "method": "rainready",
+          "addressed": -30.400140204270883,
+          "addressedPercent": -4.732611954844858,
+          "criticalCoverage": 100,
+          "tasks": 8,
+          "travel": 43,
+          "service": 300
+        }
+      ]
+    },
+    {
+      "scenario": 87,
+      "condition": "missing connections",
+      "deadline": 120,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -6.5206184772324605,
+          "addressedPercent": -0.9744904619824792,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 7,
+          "service": 96
+        },
+        {
+          "method": "severity",
+          "addressed": -33.14077212507493,
+          "addressedPercent": -4.952807230078492,
+          "criticalCoverage": 0,
+          "tasks": 4,
+          "travel": 15,
+          "service": 100
+        },
+        {
+          "method": "rainready",
+          "addressed": 147.1403009716886,
+          "addressedPercent": 21.989757623574285,
+          "criticalCoverage": 40,
+          "tasks": 2,
+          "travel": 16,
+          "service": 90
+        }
+      ]
+    },
+    {
+      "scenario": 88,
+      "condition": "nominal",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -53.138241116379504,
+          "addressedPercent": -7.324213374544414,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 302
+        },
+        {
+          "method": "severity",
+          "addressed": -141.5485665985516,
+          "addressedPercent": -19.510090715237027,
+          "criticalCoverage": 40,
+          "tasks": 10,
+          "travel": 35,
+          "service": 303
+        },
+        {
+          "method": "rainready",
+          "addressed": 5.849019099349334,
+          "addressedPercent": 0.806188970794051,
+          "criticalCoverage": 100,
+          "tasks": 8,
+          "travel": 32,
+          "service": 320
+        }
+      ]
+    },
+    {
+      "scenario": 89,
+      "condition": "missing conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": 19.81541436093869,
+          "addressedPercent": 3.9788387296543735,
+          "criticalCoverage": 20,
+          "tasks": 17,
+          "travel": 52,
+          "service": 458
+        },
+        {
+          "method": "severity",
+          "addressed": 16.204092518946823,
+          "addressedPercent": 3.253702885990727,
+          "criticalCoverage": 20,
+          "tasks": 17,
+          "travel": 63,
+          "service": 462
+        },
+        {
+          "method": "rainready",
+          "addressed": -120.30742392939896,
+          "addressedPercent": -24.15714499207494,
+          "criticalCoverage": 100,
+          "tasks": 12,
+          "travel": 50,
+          "service": 472
+        }
+      ]
+    },
+    {
+      "scenario": 90,
+      "condition": "noisy conditions",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -9.300367542449749,
+          "addressedPercent": -1.4932482764633095,
+          "criticalCoverage": 0,
+          "tasks": 7,
+          "travel": 13,
+          "service": 166
+        },
+        {
+          "method": "severity",
+          "addressed": 329.1159790559457,
+          "addressedPercent": 52.84219857319482,
+          "criticalCoverage": 20,
+          "tasks": 5,
+          "travel": 26,
+          "service": 149
+        },
+        {
+          "method": "rainready",
+          "addressed": 251.63003104636948,
+          "addressedPercent": 40.4012108609019,
+          "criticalCoverage": 60,
+          "tasks": 4,
+          "travel": 17,
+          "service": 157
+        }
+      ]
+    },
+    {
+      "scenario": 91,
+      "condition": "missing connections",
+      "deadline": 180,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -24.2609778542635,
+          "addressedPercent": -2.859078783931578,
+          "criticalCoverage": 0,
+          "tasks": 11,
+          "travel": 30,
+          "service": 290
+        },
+        {
+          "method": "severity",
+          "addressed": 346.87497264435507,
+          "addressedPercent": 40.87810808458564,
+          "criticalCoverage": 20,
+          "tasks": 11,
+          "travel": 37,
+          "service": 321
+        },
+        {
+          "method": "rainready",
+          "addressed": 195.7665820182816,
+          "addressedPercent": 23.070466681659706,
+          "criticalCoverage": 80,
+          "tasks": 8,
+          "travel": 33,
+          "service": 317
+        }
+      ]
+    },
+    {
+      "scenario": 92,
+      "condition": "nominal",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -86.96404367142449,
+          "addressedPercent": -64.40322504901374,
+          "criticalCoverage": 20,
+          "tasks": 22,
+          "travel": 65,
+          "service": 612
+        },
+        {
+          "method": "severity",
+          "addressed": -196.77728512339232,
+          "addressedPercent": -145.72794965949853,
+          "criticalCoverage": 20,
+          "tasks": 22,
+          "travel": 71,
+          "service": 615
+        },
+        {
+          "method": "rainready",
+          "addressed": -32.83929210218318,
+          "addressedPercent": -24.31989395178224,
+          "criticalCoverage": 80,
+          "tasks": 19,
+          "travel": 67,
+          "service": 631
+        }
+      ]
+    },
+    {
+      "scenario": 93,
+      "condition": "missing conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -28.032123419415257,
+          "addressedPercent": -3.75344546322012,
+          "criticalCoverage": 0,
+          "tasks": 8,
+          "travel": 13,
+          "service": 220
+        },
+        {
+          "method": "severity",
+          "addressed": 133.94711680358046,
+          "addressedPercent": 17.935252009114553,
+          "criticalCoverage": 20,
+          "tasks": 6,
+          "travel": 29,
+          "service": 207
+        },
+        {
+          "method": "rainready",
+          "addressed": 42.02527805594286,
+          "addressedPercent": 5.627100983380774,
+          "criticalCoverage": 60,
+          "tasks": 5,
+          "travel": 18,
+          "service": 211
+        }
+      ]
+    },
+    {
+      "scenario": 94,
+      "condition": "noisy conditions",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -33.14295040643367,
+          "addressedPercent": -4.362871196166805,
+          "criticalCoverage": 20,
+          "tasks": 15,
+          "travel": 40,
+          "service": 418
+        },
+        {
+          "method": "severity",
+          "addressed": -258.84003602620544,
+          "addressedPercent": -34.07318068382633,
+          "criticalCoverage": 20,
+          "tasks": 14,
+          "travel": 56,
+          "service": 407
+        },
+        {
+          "method": "rainready",
+          "addressed": -34.41877432967942,
+          "addressedPercent": -4.5308180861645315,
+          "criticalCoverage": 100,
+          "tasks": 11,
+          "travel": 42,
+          "service": 430
+        }
+      ]
+    },
+    {
+      "scenario": 95,
+      "condition": "missing connections",
+      "deadline": 240,
+      "results": [
+        {
+          "method": "fixed",
+          "addressed": -48.695856385707884,
+          "addressedPercent": -4.506516934208911,
+          "criticalCoverage": 20,
+          "tasks": 22,
+          "travel": 65,
+          "service": 612
+        },
+        {
+          "method": "severity",
+          "addressed": 161.78098624095355,
+          "addressedPercent": 14.971884842790356,
+          "criticalCoverage": 80,
+          "tasks": 20,
+          "travel": 82,
+          "service": 621
+        },
+        {
+          "method": "rainready",
+          "addressed": 87.5700138116955,
+          "addressedPercent": 8.104093026837877,
+          "criticalCoverage": 100,
+          "tasks": 19,
+          "travel": 67,
+          "service": 634
+        }
+      ]
+    }
+  ]
+}

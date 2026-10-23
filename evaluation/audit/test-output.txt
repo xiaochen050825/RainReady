@@ -1,0 +1,85 @@
+
+> rainready@2.0.0 test
+> npm run build && node --test tests/rendered-html.test.mjs tests/scoring.test.mjs tests/vision-benchmark.test.mjs tests/network.test.mjs tests/audit.test.mjs
+
+
+> rainready@2.0.0 build
+> next build
+
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 113ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 6.3s
+  Running TypeScript ...
+  Finished TypeScript in 7.7s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/6) ...
+  Generating static pages using 7 workers (1/6) 
+  Generating static pages using 7 workers (2/6) 
+  Generating static pages using 7 workers (4/6) 
+✓ Generating static pages using 7 workers (6/6) in 2.5s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/environmental-context
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+✔ hand-computed downstream transfer example produces an authentic negative outcome (7.4076ms)
+✔ zero denominators are undefined, tiny/clear obstruction is never increased, unknown truth rejects (3.1127ms)
+✔ direction and reconvergent paths do not turn downstream nodes into ancestors (12.2992ms)
+✔ minor inlet can outrank a moderately blocked collector when exposure justifies it (66.0794ms)
+✔ no crews and crews arriving after deadline produce accurate deferrals without phantom completion (15.1197ms)
+✔ missing observed condition is a labelled prior and missing rain is not zero risk (3.3076ms)
+✔ baseline metrics share denominators and cannot mutate scenario observations (18.9635ms)
+✔ planning saves independently from reports, checks conflicts and never overwrites corrupt storage (7.7581ms)
+✔ planning validation rejects unsupported versions, invalid graph and out-of-range settings (9.3327ms)
+✔ 28-node graph validates and unique traversal reaches all ancestors (12.0593ms)
+✔ rejects duplicates, malformed numbers, missing references and cycles (9.2995ms)
+✔ network-critical moderate collector outranks severely blocked minor inlet (62.0048ms)
+✔ rainfall changes priority order and scheduled work, not just display numbers (23.9561ms)
+✔ condition and connectivity changes alter priorities; missing rain lowers confidence (4.5642ms)
+✔ planner respects deadlines, availability, shift length, return travel and uniqueness (6.903ms)
+✔ access, equipment and temporal dependencies constrain scheduling (5.0518ms)
+✔ simulation is seeded and comparisons use identical budgets without mutating inputs (236.3699ms)
+✔ legacy migration preserves original data, rejects invalid input and survives quota failure (2.3721ms)
+✔ produces a deployable Next.js build (36.0394ms)
+✔ ships the explainable risk model and responsible-use language (12.0268ms)
+✔ connects location search to a real garbage-risk map (5.884ms)
+✔ verifies cleanup from a real after photo instead of a demo toggle (5.1712ms)
+✔ passes all 12 documented decision regression cases (3.4519ms)
+✔ ships the final pilot safeguards and evidence surfaces (20.68ms)
+✔ explains AI evidence and protects the upload path (27.5063ms)
+✔ ships operational impact, review actions, and comparison slider (28.9606ms)
+✔ removes the retired walkthrough surface (17.0494ms)
+✔ ships Priority Shock and transparent capacity allocation (22.7605ms)
+✔ ships the signature decision ripple and verification reveal (15.3611ms)
+✔ ships the environmental decision-support experience (7.5827ms)
+✔ uses a validated server endpoint and never inserts a fake rainfall fallback (8.6647ms)
+✔ environmental endpoint rejects missing and out-of-range coordinates (159.328ms)
+✔ central scoring weights remain normalized (1.2438ms)
+✔ priority score exposes exact factor contributions (4.7494ms)
+✔ environmental score includes mapped proximity when available (1.7058ms)
+✔ missing waterway context lowers coverage without inventing a value (3.6834ms)
+✔ missing rainfall lowers priority coverage without inventing a forecast (1.2018ms)
+✔ missing rainfall and waterway context reduce environmental coverage to visible evidence (1.0032ms)
+✔ environmental lookup preserves a real zero-rain forecast when waterway lookup fails (6.9343ms)
+✔ waterway thresholds match the published configuration (0.4509ms)
+✔ rainfall scenario priority rises monotonically for the same drain (2.2506ms)
+✔ benchmark uses balanced, camera-disjoint splits (54.9564ms)
+✔ published classifier metrics are internally consistent and beat the frozen fallback (6.828ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 43
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1254.213

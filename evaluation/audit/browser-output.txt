@@ -1,0 +1,29 @@
+
+> rainready@2.0.0 test:e2e
+> playwright test
+
+node.exe : [WebServer] (node:62000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 1 worker
+
+(node:53504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\dashboard.spec.ts:2:1 › dashboard recalculates plans, applies restrictions and invalidates approval (9.9s)
+  ok  2 tests\browser\dashboard.spec.ts:32:1 › import validation is atomic, unknown weather is honest and exports work (6.0s)
+  ok  3 tests\browser\dashboard.spec.ts:46:1 › mobile dashboard stays within viewport and retains inspection workspace (4.5s)
+  ok  4 tests\browser\dashboard.spec.ts:55:1 › imports a valid network and preserves photo upload safeguards (4.7s)
+  ok  5 tests\browser\reliability.spec.ts:3:1 › planning survives reload, selection preserves approval, edits invalidate it and reset preserves reports (9.9s)
+  ok  6 tests\browser\reliability.spec.ts:18:1 › corrupt planning data is retained until explicit reset; quota failure is visible (6.7s)
+  ok  7 tests\browser\reliability.spec.ts:25:1 › demo sequence uses live calculations and a late forecast cannot undo reset (8.5s)
+  ok  8 tests\browser\reliability.spec.ts:40:1 › a second tab cannot silently overwrite newer planning data (13.3s)
+  ok  9 tests\browser\reliability.spec.ts:46:1 › real image processing and same-photo verification remain safe when model providers fail (7.0s)
+  ok 10 tests\browser\reliability.spec.ts:56:1 › stalled ONNX initialization times out into the labelled visual fallback (6.7s)
+
+  10 passed (1.5m)

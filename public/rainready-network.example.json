@@ -1,0 +1,564 @@
+{
+  "name": "Taman Rintis · synthetic Malaysian township",
+  "synthetic": true,
+  "nodes": [
+    {
+      "id": "RR-001",
+      "name": "Meranti residential lane 1",
+      "lat": 3.08,
+      "lon": 101.49,
+      "type": "inlet",
+      "blockage": 96,
+      "confidence": 0.85,
+      "catchment": 0.7,
+      "homes": 6,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 18,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-002",
+      "name": "Meranti residential lane 2",
+      "lat": 3.0813,
+      "lon": 101.49029999999999,
+      "type": "inlet",
+      "blockage": 38,
+      "confidence": 0.85,
+      "catchment": 1,
+      "homes": 9,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 22,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-003",
+      "name": "Meranti residential lane 3",
+      "lat": 3.0826000000000002,
+      "lon": 101.4906,
+      "type": "inlet",
+      "blockage": 51,
+      "confidence": 0.85,
+      "catchment": 1.2999999999999998,
+      "homes": 12,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 26,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-004",
+      "name": "Meranti residential lane 4",
+      "lat": 3.0839,
+      "lon": 101.4909,
+      "type": "inlet",
+      "blockage": 64,
+      "confidence": 0.85,
+      "catchment": 1.5999999999999999,
+      "homes": 15,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 30,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-005",
+      "name": "Meranti residential lane 5",
+      "lat": 3.0852,
+      "lon": 101.49119999999999,
+      "type": "culvert",
+      "blockage": 77,
+      "confidence": 0.85,
+      "catchment": 1.9,
+      "homes": 18,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 34,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-006",
+      "name": "Meranti collector",
+      "lat": 3.0865,
+      "lon": 101.49149999999999,
+      "type": "collector",
+      "blockage": 58,
+      "confidence": 0.85,
+      "catchment": 2,
+      "homes": 80,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 42,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-007",
+      "name": "Cengal residential lane 1",
+      "lat": 3.08,
+      "lon": 101.493,
+      "type": "inlet",
+      "blockage": 42,
+      "confidence": 0.85,
+      "catchment": 0.7,
+      "homes": 6,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 18,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-008",
+      "name": "Cengal residential lane 2",
+      "lat": 3.0813,
+      "lon": 101.49329999999999,
+      "type": "inlet",
+      "blockage": 55,
+      "confidence": 0.85,
+      "catchment": 1,
+      "homes": 9,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 22,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-009",
+      "name": "Cengal residential lane 3",
+      "lat": 3.0826000000000002,
+      "lon": 101.4936,
+      "type": "inlet",
+      "blockage": 68,
+      "confidence": 0.85,
+      "catchment": 1.2999999999999998,
+      "homes": 12,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 26,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-010",
+      "name": "Cengal residential lane 4",
+      "lat": 3.0839,
+      "lon": 101.4939,
+      "type": "inlet",
+      "blockage": 81,
+      "confidence": 0.85,
+      "catchment": 1.5999999999999999,
+      "homes": 15,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 30,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-011",
+      "name": "Cengal residential lane 5",
+      "lat": 3.0852,
+      "lon": 101.49419999999999,
+      "type": "culvert",
+      "blockage": 34,
+      "confidence": 0.85,
+      "catchment": 1.9,
+      "homes": 18,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 34,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-012",
+      "name": "Cengal collector",
+      "lat": 3.0865,
+      "lon": 101.49449999999999,
+      "type": "collector",
+      "blockage": 58,
+      "confidence": 0.85,
+      "catchment": 2,
+      "homes": 80,
+      "schools": 1,
+      "accessRoutes": 1,
+      "duration": 42,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-013",
+      "name": "Angsana residential lane 1",
+      "lat": 3.08,
+      "lon": 101.496,
+      "type": "inlet",
+      "blockage": 59,
+      "confidence": 0.85,
+      "catchment": 0.7,
+      "homes": 6,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 18,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-014",
+      "name": "Angsana residential lane 2",
+      "lat": 3.0813,
+      "lon": 101.49629999999999,
+      "type": "inlet",
+      "blockage": 72,
+      "confidence": 0.85,
+      "catchment": 1,
+      "homes": 9,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 22,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-015",
+      "name": "Angsana residential lane 3",
+      "lat": 3.0826000000000002,
+      "lon": 101.4966,
+      "type": "inlet",
+      "blockage": 25,
+      "confidence": 0.85,
+      "catchment": 1.2999999999999998,
+      "homes": 12,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 26,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-016",
+      "name": "Angsana residential lane 4",
+      "lat": 3.0839,
+      "lon": 101.4969,
+      "type": "inlet",
+      "blockage": 38,
+      "confidence": 0.85,
+      "catchment": 1.5999999999999999,
+      "homes": 15,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 30,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-017",
+      "name": "Angsana residential lane 5",
+      "lat": 3.0852,
+      "lon": 101.49719999999999,
+      "type": "culvert",
+      "blockage": 51,
+      "confidence": 0.85,
+      "catchment": 1.9,
+      "homes": 18,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 34,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-018",
+      "name": "Angsana collector",
+      "lat": 3.0865,
+      "lon": 101.49749999999999,
+      "type": "collector",
+      "blockage": 58,
+      "confidence": 0.85,
+      "catchment": 2,
+      "homes": 80,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 42,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-019",
+      "name": "Melur residential lane 1",
+      "lat": 3.08,
+      "lon": 101.499,
+      "type": "inlet",
+      "blockage": 76,
+      "confidence": 0.85,
+      "catchment": 0.7,
+      "homes": 6,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 18,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-020",
+      "name": "Melur residential lane 2",
+      "lat": 3.0813,
+      "lon": 101.49929999999999,
+      "type": "inlet",
+      "blockage": 29,
+      "confidence": 0.85,
+      "catchment": 1,
+      "homes": 9,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 22,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-021",
+      "name": "Melur residential lane 3",
+      "lat": 3.0826000000000002,
+      "lon": 101.4996,
+      "type": "inlet",
+      "blockage": 42,
+      "confidence": 0.85,
+      "catchment": 1.2999999999999998,
+      "homes": 12,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 26,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-022",
+      "name": "Melur residential lane 4",
+      "lat": 3.0839,
+      "lon": 101.4999,
+      "type": "inlet",
+      "blockage": 55,
+      "confidence": 0.85,
+      "catchment": 1.5999999999999999,
+      "homes": 15,
+      "schools": 0,
+      "accessRoutes": 0,
+      "duration": 30,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-023",
+      "name": "Melur residential lane 5",
+      "lat": 3.0852,
+      "lon": 101.50019999999999,
+      "type": "culvert",
+      "blockage": 68,
+      "confidence": 0.85,
+      "catchment": 1.9,
+      "homes": 18,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 34,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-024",
+      "name": "Melur collector",
+      "lat": 3.0865,
+      "lon": 101.50049999999999,
+      "type": "collector",
+      "blockage": 58,
+      "confidence": 0.85,
+      "catchment": 2,
+      "homes": 80,
+      "schools": 0,
+      "accessRoutes": 1,
+      "duration": 42,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-025",
+      "name": "East trunk channel",
+      "lat": 3.088,
+      "lon": 101.498,
+      "type": "channel",
+      "blockage": 35,
+      "confidence": 0.8,
+      "catchment": 3,
+      "homes": 30,
+      "schools": 0,
+      "accessRoutes": 2,
+      "duration": 45,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-026",
+      "name": "West trunk channel",
+      "lat": 3.0893,
+      "lon": 101.495,
+      "type": "channel",
+      "blockage": 35,
+      "confidence": 0.8,
+      "catchment": 3,
+      "homes": 30,
+      "schools": 0,
+      "accessRoutes": 2,
+      "duration": 45,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-027",
+      "name": "Township collector",
+      "lat": 3.0906000000000002,
+      "lon": 101.498,
+      "type": "collector",
+      "blockage": 62,
+      "confidence": 0.8,
+      "catchment": 3,
+      "homes": 150,
+      "schools": 1,
+      "accessRoutes": 2,
+      "duration": 45,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    },
+    {
+      "id": "RR-028",
+      "name": "Demonstration outlet",
+      "lat": 3.0919,
+      "lon": 101.495,
+      "type": "outlet",
+      "blockage": 35,
+      "confidence": 0.8,
+      "catchment": 3,
+      "homes": 30,
+      "schools": 0,
+      "accessRoutes": 2,
+      "duration": 45,
+      "accessible": true,
+      "history": "Synthetic condition survey · 21 Oct 2026"
+    }
+  ],
+  "edges": [
+    {
+      "from": "RR-001",
+      "to": "RR-002"
+    },
+    {
+      "from": "RR-002",
+      "to": "RR-003"
+    },
+    {
+      "from": "RR-003",
+      "to": "RR-004"
+    },
+    {
+      "from": "RR-004",
+      "to": "RR-005"
+    },
+    {
+      "from": "RR-005",
+      "to": "RR-006"
+    },
+    {
+      "from": "RR-007",
+      "to": "RR-008"
+    },
+    {
+      "from": "RR-008",
+      "to": "RR-009"
+    },
+    {
+      "from": "RR-009",
+      "to": "RR-010"
+    },
+    {
+      "from": "RR-010",
+      "to": "RR-011"
+    },
+    {
+      "from": "RR-011",
+      "to": "RR-012"
+    },
+    {
+      "from": "RR-013",
+      "to": "RR-014"
+    },
+    {
+      "from": "RR-014",
+      "to": "RR-015"
+    },
+    {
+      "from": "RR-015",
+      "to": "RR-016"
+    },
+    {
+      "from": "RR-016",
+      "to": "RR-017"
+    },
+    {
+      "from": "RR-017",
+      "to": "RR-018"
+    },
+    {
+      "from": "RR-019",
+      "to": "RR-020"
+    },
+    {
+      "from": "RR-020",
+      "to": "RR-021"
+    },
+    {
+      "from": "RR-021",
+      "to": "RR-022"
+    },
+    {
+      "from": "RR-022",
+      "to": "RR-023"
+    },
+    {
+      "from": "RR-023",
+      "to": "RR-024"
+    },
+    {
+      "from": "RR-006",
+      "to": "RR-025"
+    },
+    {
+      "from": "RR-012",
+      "to": "RR-025"
+    },
+    {
+      "from": "RR-018",
+      "to": "RR-026"
+    },
+    {
+      "from": "RR-024",
+      "to": "RR-026"
+    },
+    {
+      "from": "RR-025",
+      "to": "RR-027"
+    },
+    {
+      "from": "RR-026",
+      "to": "RR-027"
+    },
+    {
+      "from": "RR-027",
+      "to": "RR-028"
+    }
+  ]
+}

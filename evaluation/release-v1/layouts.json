@@ -1,0 +1,3311 @@
+[
+  {
+    "name": "Generated DAG 6101",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.0776964396592232,
+        "lon": 101.49105658377242,
+        "type": "channel",
+        "blockage": 49.47160119190812,
+        "confidence": 0.8,
+        "catchment": 2.2290379074867817,
+        "homes": 12,
+        "schools": 1,
+        "accessRoutes": 2,
+        "duration": 12,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.08609318123851,
+        "lon": 101.48533384605683,
+        "type": "culvert",
+        "blockage": 16.17139216978103,
+        "confidence": 0.8,
+        "catchment": 0.7079101026058197,
+        "homes": 5,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 40,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.0840585139291363,
+        "lon": 101.49073071093672,
+        "type": "culvert",
+        "blockage": 53.789527365006506,
+        "confidence": 0.8,
+        "catchment": 2.0322017369791867,
+        "homes": 42,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 29,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.0774353482062,
+        "lon": 101.48980574023909,
+        "type": "channel",
+        "blockage": 46.70251153875142,
+        "confidence": 0.8,
+        "catchment": 1.2812918748706579,
+        "homes": 84,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 34,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N2"
+        ]
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.0846536242933946,
+        "lon": 101.49080977796577,
+        "type": "channel",
+        "blockage": 95.84406337235123,
+        "confidence": 0.8,
+        "catchment": 3.359583010710776,
+        "homes": 26,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 43,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.0802895684251563,
+        "lon": 101.49071569875814,
+        "type": "channel",
+        "blockage": 19.235075009055436,
+        "confidence": 0.8,
+        "catchment": 4.541812264174223,
+        "homes": 29,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 17,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.0802924994872884,
+        "lon": 101.4855418942254,
+        "type": "collector",
+        "blockage": 60.98629760090262,
+        "confidence": 0.8,
+        "catchment": 2.2310469856485726,
+        "homes": 111,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 23,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.0866921044075863,
+        "lon": 101.49592185302265,
+        "type": "collector",
+        "blockage": 1.9611831055954099,
+        "confidence": 0.8,
+        "catchment": 3.2957819242030384,
+        "homes": 62,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 28,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.0753486822964624,
+        "lon": 101.48623233467899,
+        "type": "channel",
+        "blockage": 89.28638233337551,
+        "confidence": 0.8,
+        "catchment": 2.158012958057225,
+        "homes": 64,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.081308857337572,
+        "lon": 101.4905926371757,
+        "type": "collector",
+        "blockage": 26.89739924389869,
+        "confidence": 0.8,
+        "catchment": 1.0541623875498771,
+        "homes": 19,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.079329260428436,
+        "lon": 101.4940474582743,
+        "type": "collector",
+        "blockage": 94.30690149310976,
+        "confidence": 0.8,
+        "catchment": 1.1407307906076312,
+        "homes": 26,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 35,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.08013067957107,
+        "lon": 101.49624585059472,
+        "type": "inlet",
+        "blockage": 85.78318723011762,
+        "confidence": 0.8,
+        "catchment": 4.366550440713763,
+        "homes": 85,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 17,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0859451790126045,
+        "lon": 101.49192877044342,
+        "type": "channel",
+        "blockage": 87.12630814407021,
+        "confidence": 0.8,
+        "catchment": 2.2835152873769404,
+        "homes": 107,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.0799186871359128,
+        "lon": 101.48953772039152,
+        "type": "collector",
+        "blockage": 32.22934876102954,
+        "confidence": 0.8,
+        "catchment": 4.21766249909997,
+        "homes": 20,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 35,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.082931553100236,
+        "lon": 101.4882569856029,
+        "type": "inlet",
+        "blockage": 6.6123619908466935,
+        "confidence": 0.8,
+        "catchment": 3.4724805688485505,
+        "homes": 45,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 40,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.086399572231807,
+        "lon": 101.49280196391233,
+        "type": "culvert",
+        "blockage": 90.1164609240368,
+        "confidence": 0.8,
+        "catchment": 1.4863189820200204,
+        "homes": 30,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 42,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N16",
+        "name": "Generated asset 16",
+        "lat": 3.080617980164476,
+        "lon": 101.4922660896536,
+        "type": "culvert",
+        "blockage": 55.94556687865406,
+        "confidence": 0.8,
+        "catchment": 1.1157744469121098,
+        "homes": 15,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 25,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N17",
+        "name": "Generated asset 17",
+        "lat": 3.077210915730335,
+        "lon": 101.48833885123767,
+        "type": "culvert",
+        "blockage": 68.24331369716674,
+        "confidence": 0.8,
+        "catchment": 1.4669286876916885,
+        "homes": 15,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 20,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N18",
+        "name": "Generated asset 18",
+        "lat": 3.0763922731205824,
+        "lon": 101.48524885260035,
+        "type": "outlet",
+        "blockage": 68.39502067305148,
+        "confidence": 0.8,
+        "catchment": 2.469630414666608,
+        "homes": 65,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N17"
+      },
+      {
+        "from": "N1",
+        "to": "N15"
+      },
+      {
+        "from": "N2",
+        "to": "N15"
+      },
+      {
+        "from": "N3",
+        "to": "N10"
+      },
+      {
+        "from": "N3",
+        "to": "N8"
+      },
+      {
+        "from": "N4",
+        "to": "N12"
+      },
+      {
+        "from": "N5",
+        "to": "N13"
+      },
+      {
+        "from": "N6",
+        "to": "N15"
+      },
+      {
+        "from": "N6",
+        "to": "N16"
+      },
+      {
+        "from": "N7",
+        "to": "N18"
+      },
+      {
+        "from": "N8",
+        "to": "N15"
+      },
+      {
+        "from": "N9",
+        "to": "N15"
+      },
+      {
+        "from": "N10",
+        "to": "N14"
+      },
+      {
+        "from": "N11",
+        "to": "N13"
+      },
+      {
+        "from": "N12",
+        "to": "N16"
+      },
+      {
+        "from": "N12",
+        "to": "N15"
+      },
+      {
+        "from": "N13",
+        "to": "N14"
+      },
+      {
+        "from": "N14",
+        "to": "N16"
+      },
+      {
+        "from": "N15",
+        "to": "N17"
+      },
+      {
+        "from": "N16",
+        "to": "N17"
+      },
+      {
+        "from": "N17",
+        "to": "N18"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 7103",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.0786287062726916,
+        "lon": 101.49214136747364,
+        "type": "channel",
+        "blockage": 29.390629520639777,
+        "confidence": 0.8,
+        "catchment": 3.260482010478154,
+        "homes": 119,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 32,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.082748275875114,
+        "lon": 101.49473383964597,
+        "type": "culvert",
+        "blockage": 18.912862590514123,
+        "confidence": 0.8,
+        "catchment": 3.0105136402882637,
+        "homes": 33,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.0803950221268463,
+        "lon": 101.485038504038,
+        "type": "collector",
+        "blockage": 14.722314360551536,
+        "confidence": 0.8,
+        "catchment": 4.395889716502279,
+        "homes": 108,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.0851803126400337,
+        "lon": 101.4927299677059,
+        "type": "collector",
+        "blockage": 27.737399353645742,
+        "confidence": 0.8,
+        "catchment": 1.1132962231524288,
+        "homes": 13,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.082199531058781,
+        "lon": 101.48726843286678,
+        "type": "inlet",
+        "blockage": 50.41996582876891,
+        "confidence": 0.8,
+        "catchment": 1.0613964426331222,
+        "homes": 50,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 11,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.0780252796551215,
+        "lon": 101.48545075640082,
+        "type": "collector",
+        "blockage": 84.42413804586977,
+        "confidence": 0.8,
+        "catchment": 0.7993799329735338,
+        "homes": 97,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 18,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.0761470765946433,
+        "lon": 101.49350151430443,
+        "type": "collector",
+        "blockage": 82.75329868774861,
+        "confidence": 0.8,
+        "catchment": 3.1052511020563545,
+        "homes": 102,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 45,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.075860271952115,
+        "lon": 101.49600390989333,
+        "type": "channel",
+        "blockage": 16.233477531932294,
+        "confidence": 0.8,
+        "catchment": 2.8397818443365397,
+        "homes": 97,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.0846666824771094,
+        "lon": 101.49448302575573,
+        "type": "channel",
+        "blockage": 68.99064637254924,
+        "confidence": 0.8,
+        "catchment": 4.163003240060061,
+        "homes": 99,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 20,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.0772494451096284,
+        "lon": 101.4934539194554,
+        "type": "collector",
+        "blockage": 92.61942019220442,
+        "confidence": 0.8,
+        "catchment": 3.400111316982657,
+        "homes": 35,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 11,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.0770845892457293,
+        "lon": 101.49074706298485,
+        "type": "culvert",
+        "blockage": 73.73066458385438,
+        "confidence": 0.8,
+        "catchment": 3.103661874588579,
+        "homes": 95,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 31,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.083751827753149,
+        "lon": 101.4959236259684,
+        "type": "inlet",
+        "blockage": 94.56550942268223,
+        "confidence": 0.8,
+        "catchment": 4.108929370809347,
+        "homes": 44,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 24,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0760070667369295,
+        "lon": 101.49559310261533,
+        "type": "culvert",
+        "blockage": 91.36326878797263,
+        "confidence": 0.8,
+        "catchment": 3.6293048712424936,
+        "homes": 116,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 22,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.083679134055041,
+        "lon": 101.49144578242301,
+        "type": "collector",
+        "blockage": 40.17076713498682,
+        "confidence": 0.8,
+        "catchment": 3.68860806087032,
+        "homes": 36,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 45,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.08445322658401,
+        "lon": 101.48781256463006,
+        "type": "culvert",
+        "blockage": 24.780571716837585,
+        "confidence": 0.8,
+        "catchment": 0.4371883182786405,
+        "homes": 49,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 11,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.084603576234542,
+        "lon": 101.48856461641937,
+        "type": "channel",
+        "blockage": 66.48563125636429,
+        "confidence": 0.8,
+        "catchment": 1.1486898523755371,
+        "homes": 99,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 29,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N16",
+        "name": "Generated asset 16",
+        "lat": 3.0857378347171474,
+        "lon": 101.49416537487134,
+        "type": "culvert",
+        "blockage": 20.33782086800784,
+        "confidence": 0.8,
+        "catchment": 1.9443559016101062,
+        "homes": 4,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 33,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N17",
+        "name": "Generated asset 17",
+        "lat": 3.0866156770577655,
+        "lon": 101.49268739266694,
+        "type": "inlet",
+        "blockage": 67.59789322968572,
+        "confidence": 0.8,
+        "catchment": 0.54174699569121,
+        "homes": 62,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 12,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N18",
+        "name": "Generated asset 18",
+        "lat": 3.080104123863392,
+        "lon": 101.48960652754083,
+        "type": "culvert",
+        "blockage": 59.064336004666984,
+        "confidence": 0.8,
+        "catchment": 4.574748279806227,
+        "homes": 97,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 33,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N19",
+        "name": "Generated asset 19",
+        "lat": 3.0803320823377,
+        "lon": 101.49218597548455,
+        "type": "culvert",
+        "blockage": 88.96863551344723,
+        "confidence": 0.8,
+        "catchment": 2.2817409013397993,
+        "homes": 22,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 27,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N18"
+        ]
+      },
+      {
+        "id": "N20",
+        "name": "Generated asset 20",
+        "lat": 3.0861066060466693,
+        "lon": 101.48726264769957,
+        "type": "culvert",
+        "blockage": 4.124446655623615,
+        "confidence": 0.8,
+        "catchment": 3.6088124590925874,
+        "homes": 113,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 42,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N21",
+        "name": "Generated asset 21",
+        "lat": 3.0816533734342086,
+        "lon": 101.49024839130044,
+        "type": "culvert",
+        "blockage": 78.01816908176988,
+        "confidence": 0.8,
+        "catchment": 1.0248815150000155,
+        "homes": 50,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 31,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N22",
+        "name": "Generated asset 22",
+        "lat": 3.0827438850877806,
+        "lon": 101.49415855376795,
+        "type": "inlet",
+        "blockage": 4.528429615311325,
+        "confidence": 0.8,
+        "catchment": 0.5956111683510243,
+        "homes": 20,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 19,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N23",
+        "name": "Generated asset 23",
+        "lat": 3.076711684377864,
+        "lon": 101.49327187975403,
+        "type": "outlet",
+        "blockage": 12.336592935025692,
+        "confidence": 0.8,
+        "catchment": 4.74809854621999,
+        "homes": 117,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 17,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N3"
+      },
+      {
+        "from": "N1",
+        "to": "N14"
+      },
+      {
+        "from": "N2",
+        "to": "N20"
+      },
+      {
+        "from": "N2",
+        "to": "N11"
+      },
+      {
+        "from": "N3",
+        "to": "N7"
+      },
+      {
+        "from": "N3",
+        "to": "N10"
+      },
+      {
+        "from": "N4",
+        "to": "N14"
+      },
+      {
+        "from": "N5",
+        "to": "N19"
+      },
+      {
+        "from": "N6",
+        "to": "N12"
+      },
+      {
+        "from": "N7",
+        "to": "N20"
+      },
+      {
+        "from": "N8",
+        "to": "N12"
+      },
+      {
+        "from": "N9",
+        "to": "N23"
+      },
+      {
+        "from": "N10",
+        "to": "N18"
+      },
+      {
+        "from": "N11",
+        "to": "N13"
+      },
+      {
+        "from": "N12",
+        "to": "N20"
+      },
+      {
+        "from": "N13",
+        "to": "N15"
+      },
+      {
+        "from": "N13",
+        "to": "N14"
+      },
+      {
+        "from": "N14",
+        "to": "N15"
+      },
+      {
+        "from": "N15",
+        "to": "N21"
+      },
+      {
+        "from": "N16",
+        "to": "N20"
+      },
+      {
+        "from": "N16",
+        "to": "N21"
+      },
+      {
+        "from": "N17",
+        "to": "N19"
+      },
+      {
+        "from": "N17",
+        "to": "N18"
+      },
+      {
+        "from": "N18",
+        "to": "N19"
+      },
+      {
+        "from": "N18",
+        "to": "N21"
+      },
+      {
+        "from": "N19",
+        "to": "N21"
+      },
+      {
+        "from": "N19",
+        "to": "N23"
+      },
+      {
+        "from": "N20",
+        "to": "N21"
+      },
+      {
+        "from": "N21",
+        "to": "N22"
+      },
+      {
+        "from": "N22",
+        "to": "N23"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 8107",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.083993971422315,
+        "lon": 101.4941145439567,
+        "type": "channel",
+        "blockage": 42.602909402921796,
+        "confidence": 0.8,
+        "catchment": 1.7690347843337804,
+        "homes": 91,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.078246993455105,
+        "lon": 101.48561367354169,
+        "type": "inlet",
+        "blockage": 14.873377862386405,
+        "confidence": 0.8,
+        "catchment": 1.8446593008004128,
+        "homes": 64,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 16,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.0753349964087833,
+        "lon": 101.49373014502973,
+        "type": "collector",
+        "blockage": 29.070136859081686,
+        "confidence": 0.8,
+        "catchment": 4.858108011353761,
+        "homes": 82,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 44,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.076653310935013,
+        "lon": 101.49321691818163,
+        "type": "collector",
+        "blockage": 38.07575001846999,
+        "confidence": 0.8,
+        "catchment": 3.2703145521692933,
+        "homes": 36,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 15,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.0762435334464535,
+        "lon": 101.48834277370572,
+        "type": "inlet",
+        "blockage": 76.96108964737505,
+        "confidence": 0.8,
+        "catchment": 4.2676047117449345,
+        "homes": 21,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 12,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.077169644999318,
+        "lon": 101.49217530517653,
+        "type": "culvert",
+        "blockage": 80.68144272547215,
+        "confidence": 0.8,
+        "catchment": 0.30297069093212486,
+        "homes": 83,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.075969427308999,
+        "lon": 101.4958243272379,
+        "type": "channel",
+        "blockage": 17.73739957716316,
+        "confidence": 0.8,
+        "catchment": 3.631898739654571,
+        "homes": 58,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.075617597515695,
+        "lon": 101.49033762755617,
+        "type": "collector",
+        "blockage": 77.83964879345149,
+        "confidence": 0.8,
+        "catchment": 3.450735856126994,
+        "homes": 54,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 17,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump",
+        "dependsOn": [
+          "N6"
+        ]
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.084063161700033,
+        "lon": 101.48706156252325,
+        "type": "channel",
+        "blockage": 43.26517840381712,
+        "confidence": 0.8,
+        "catchment": 4.934470548573882,
+        "homes": 18,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 28,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump",
+        "dependsOn": [
+          "N7"
+        ]
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.082403487148695,
+        "lon": 101.48527899670974,
+        "type": "inlet",
+        "blockage": 98.59238329809159,
+        "confidence": 0.8,
+        "catchment": 0.7208026594482362,
+        "homes": 5,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 13,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.081757593370043,
+        "lon": 101.49493708606809,
+        "type": "inlet",
+        "blockage": 58.50257889833301,
+        "confidence": 0.8,
+        "catchment": 1.637377252150327,
+        "homes": 37,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 44,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.0789011618597435,
+        "lon": 101.48527740488574,
+        "type": "collector",
+        "blockage": 18.335421080701053,
+        "confidence": 0.8,
+        "catchment": 4.719057560246438,
+        "homes": 11,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0837257646163927,
+        "lon": 101.49318091648817,
+        "type": "channel",
+        "blockage": 57.08573234733194,
+        "confidence": 0.8,
+        "catchment": 2.8121119991876187,
+        "homes": 45,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.0825848114071417,
+        "lon": 101.4920402876921,
+        "type": "inlet",
+        "blockage": 47.52923424821347,
+        "confidence": 0.8,
+        "catchment": 1.3121902405284345,
+        "homes": 111,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.0805887157833207,
+        "lon": 101.48897204700857,
+        "type": "collector",
+        "blockage": 53.164686053059995,
+        "confidence": 0.8,
+        "catchment": 3.832963348645717,
+        "homes": 107,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 28,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.085620963385329,
+        "lon": 101.49091177984606,
+        "type": "outlet",
+        "blockage": 68.17572163417935,
+        "confidence": 0.8,
+        "catchment": 1.0329964836593717,
+        "homes": 111,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 37,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N12"
+      },
+      {
+        "from": "N0",
+        "to": "N11"
+      },
+      {
+        "from": "N1",
+        "to": "N7"
+      },
+      {
+        "from": "N2",
+        "to": "N13"
+      },
+      {
+        "from": "N3",
+        "to": "N15"
+      },
+      {
+        "from": "N3",
+        "to": "N14"
+      },
+      {
+        "from": "N4",
+        "to": "N15"
+      },
+      {
+        "from": "N4",
+        "to": "N14"
+      },
+      {
+        "from": "N5",
+        "to": "N15"
+      },
+      {
+        "from": "N6",
+        "to": "N11"
+      },
+      {
+        "from": "N6",
+        "to": "N10"
+      },
+      {
+        "from": "N7",
+        "to": "N9"
+      },
+      {
+        "from": "N8",
+        "to": "N12"
+      },
+      {
+        "from": "N9",
+        "to": "N15"
+      },
+      {
+        "from": "N10",
+        "to": "N12"
+      },
+      {
+        "from": "N10",
+        "to": "N15"
+      },
+      {
+        "from": "N11",
+        "to": "N14"
+      },
+      {
+        "from": "N12",
+        "to": "N14"
+      },
+      {
+        "from": "N13",
+        "to": "N14"
+      },
+      {
+        "from": "N14",
+        "to": "N15"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 9109",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.0849262380357834,
+        "lon": 101.49519932765793,
+        "type": "culvert",
+        "blockage": 22.521937731653452,
+        "confidence": 0.8,
+        "catchment": 2.800478887325153,
+        "homes": 79,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 41,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.086902088091709,
+        "lon": 101.49501366713085,
+        "type": "collector",
+        "blockage": 17.6148482831195,
+        "confidence": 0.8,
+        "catchment": 4.147262838482857,
+        "homes": 92,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 32,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.083671504606493,
+        "lon": 101.48803793813101,
+        "type": "culvert",
+        "blockage": 90.00292385462672,
+        "confidence": 0.8,
+        "catchment": 2.2217959908768536,
+        "homes": 27,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 16,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.084398275368847,
+        "lon": 101.49614114564844,
+        "type": "inlet",
+        "blockage": 19.110637833364308,
+        "confidence": 0.8,
+        "catchment": 3.1023189004510643,
+        "homes": 85,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 20,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.08578944021184,
+        "lon": 101.49680142860673,
+        "type": "channel",
+        "blockage": 31.536992103792727,
+        "confidence": 0.8,
+        "catchment": 1.9694181436672806,
+        "homes": 45,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 15,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.086905356229283,
+        "lon": 101.4869103628192,
+        "type": "channel",
+        "blockage": 45.870505762286484,
+        "confidence": 0.8,
+        "catchment": 1.5605383597314357,
+        "homes": 31,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.0838240044163543,
+        "lon": 101.49178394731693,
+        "type": "channel",
+        "blockage": 39.504400664009154,
+        "confidence": 0.8,
+        "catchment": 4.506102856062353,
+        "homes": 48,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 35,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.0767857650602237,
+        "lon": 101.49041968442685,
+        "type": "culvert",
+        "blockage": 92.11194321978837,
+        "confidence": 0.8,
+        "catchment": 2.9947357762604954,
+        "homes": 89,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 27,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.0813811618806795,
+        "lon": 101.49531225359999,
+        "type": "channel",
+        "blockage": 22.96944244299084,
+        "confidence": 0.8,
+        "catchment": 1.9394608305767178,
+        "homes": 53,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 45,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.0783440749207513,
+        "lon": 101.48814027898945,
+        "type": "collector",
+        "blockage": 64.31440424639732,
+        "confidence": 0.8,
+        "catchment": 3.066751588881016,
+        "homes": 20,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 11,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.079512922187336,
+        "lon": 101.49163669077866,
+        "type": "channel",
+        "blockage": 37.92634198907763,
+        "confidence": 0.8,
+        "catchment": 3.600308336131275,
+        "homes": 105,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 40,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N9"
+        ]
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.082522310041823,
+        "lon": 101.49695518025942,
+        "type": "collector",
+        "blockage": 27.11774327326566,
+        "confidence": 0.8,
+        "catchment": 4.461436490342021,
+        "homes": 90,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 27,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0857876523407177,
+        "lon": 101.49684524866007,
+        "type": "culvert",
+        "blockage": 61.32269299123436,
+        "confidence": 0.8,
+        "catchment": 4.157901583053172,
+        "homes": 55,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 40,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.08634525832627,
+        "lon": 101.4939483497236,
+        "type": "collector",
+        "blockage": 55.470652622170746,
+        "confidence": 0.8,
+        "catchment": 0.7831358022987842,
+        "homes": 7,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 31,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.0821103892670947,
+        "lon": 101.48852762603573,
+        "type": "inlet",
+        "blockage": 71.33289577905089,
+        "confidence": 0.8,
+        "catchment": 0.797671098075807,
+        "homes": 111,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 35,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.0791157838488,
+        "lon": 101.48894373910315,
+        "type": "inlet",
+        "blockage": 93.02910000551492,
+        "confidence": 0.8,
+        "catchment": 4.514673850312829,
+        "homes": 88,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 11,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N16",
+        "name": "Generated asset 16",
+        "lat": 3.083293152314611,
+        "lon": 101.49518929318153,
+        "type": "channel",
+        "blockage": 33.881594822742045,
+        "confidence": 0.8,
+        "catchment": 4.46145609933883,
+        "homes": 33,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 10,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N17",
+        "name": "Generated asset 17",
+        "lat": 3.083360139355995,
+        "lon": 101.49279435285366,
+        "type": "collector",
+        "blockage": 16.804766026325524,
+        "confidence": 0.8,
+        "catchment": 4.038838338851929,
+        "homes": 85,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 36,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N18",
+        "name": "Generated asset 18",
+        "lat": 3.0823752557532864,
+        "lon": 101.48541555435769,
+        "type": "collector",
+        "blockage": 95.41711623314768,
+        "confidence": 0.8,
+        "catchment": 5.1502388713881375,
+        "homes": 60,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 17,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N19",
+        "name": "Generated asset 19",
+        "lat": 3.082523278766312,
+        "lon": 101.48942131066508,
+        "type": "inlet",
+        "blockage": 8.063481678254902,
+        "confidence": 0.8,
+        "catchment": 4.722364726290107,
+        "homes": 7,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 33,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N20",
+        "name": "Generated asset 20",
+        "lat": 3.075119780033827,
+        "lon": 101.49669362127501,
+        "type": "outlet",
+        "blockage": 31.546752573922276,
+        "confidence": 0.8,
+        "catchment": 4.296745263086632,
+        "homes": 26,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N19"
+      },
+      {
+        "from": "N0",
+        "to": "N18"
+      },
+      {
+        "from": "N1",
+        "to": "N8"
+      },
+      {
+        "from": "N1",
+        "to": "N10"
+      },
+      {
+        "from": "N2",
+        "to": "N4"
+      },
+      {
+        "from": "N3",
+        "to": "N6"
+      },
+      {
+        "from": "N4",
+        "to": "N14"
+      },
+      {
+        "from": "N5",
+        "to": "N11"
+      },
+      {
+        "from": "N6",
+        "to": "N10"
+      },
+      {
+        "from": "N7",
+        "to": "N10"
+      },
+      {
+        "from": "N8",
+        "to": "N10"
+      },
+      {
+        "from": "N9",
+        "to": "N17"
+      },
+      {
+        "from": "N10",
+        "to": "N20"
+      },
+      {
+        "from": "N11",
+        "to": "N15"
+      },
+      {
+        "from": "N11",
+        "to": "N18"
+      },
+      {
+        "from": "N12",
+        "to": "N16"
+      },
+      {
+        "from": "N13",
+        "to": "N15"
+      },
+      {
+        "from": "N14",
+        "to": "N18"
+      },
+      {
+        "from": "N15",
+        "to": "N17"
+      },
+      {
+        "from": "N16",
+        "to": "N19"
+      },
+      {
+        "from": "N16",
+        "to": "N20"
+      },
+      {
+        "from": "N17",
+        "to": "N18"
+      },
+      {
+        "from": "N18",
+        "to": "N20"
+      },
+      {
+        "from": "N19",
+        "to": "N20"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 10111",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.0858585046492517,
+        "lon": 101.49628411135916,
+        "type": "culvert",
+        "blockage": 2.440966060385108,
+        "confidence": 0.8,
+        "catchment": 3.8319229903165253,
+        "homes": 67,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 25,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.0835571827283133,
+        "lon": 101.49241366071999,
+        "type": "channel",
+        "blockage": 20.356318703852594,
+        "confidence": 0.8,
+        "catchment": 1.4498663761653006,
+        "homes": 0,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.080008012804203,
+        "lon": 101.49434573123231,
+        "type": "inlet",
+        "blockage": 50.935710850171745,
+        "confidence": 0.8,
+        "catchment": 4.585483970399946,
+        "homes": 93,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 25,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.080143239802681,
+        "lon": 101.48706537311524,
+        "type": "culvert",
+        "blockage": 0.14552564825862646,
+        "confidence": 0.8,
+        "catchment": 2.9343232487328352,
+        "homes": 14,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 25,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.0833353469772264,
+        "lon": 101.49326008350775,
+        "type": "inlet",
+        "blockage": 86.1128945602104,
+        "confidence": 0.8,
+        "catchment": 4.671231575589627,
+        "homes": 70,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 19,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.0846410674592484,
+        "lon": 101.49364542046189,
+        "type": "collector",
+        "blockage": 11.059568799100816,
+        "confidence": 0.8,
+        "catchment": 2.818106028530747,
+        "homes": 98,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 40,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.079678581523709,
+        "lon": 101.48774356739595,
+        "type": "collector",
+        "blockage": 61.27140175085515,
+        "confidence": 0.8,
+        "catchment": 0.3803069724701345,
+        "homes": 39,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.0779539326047525,
+        "lon": 101.49050174129754,
+        "type": "collector",
+        "blockage": 6.384237646125257,
+        "confidence": 0.8,
+        "catchment": 2.5387356963939967,
+        "homes": 5,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 36,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.0786991620613264,
+        "lon": 101.49156294467673,
+        "type": "channel",
+        "blockage": 2.6737064821645617,
+        "confidence": 0.8,
+        "catchment": 3.9444511125795545,
+        "homes": 88,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 26,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.0862846626928078,
+        "lon": 101.49100156126916,
+        "type": "collector",
+        "blockage": 30.036425194703043,
+        "confidence": 0.8,
+        "catchment": 0.41270051831379534,
+        "homes": 36,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 44,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N8"
+        ]
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.077268251004629,
+        "lon": 101.48833629548922,
+        "type": "culvert",
+        "blockage": 17.350105079822242,
+        "confidence": 0.8,
+        "catchment": 0.5632394201122224,
+        "homes": 54,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 36,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.086143458223902,
+        "lon": 101.4966329556331,
+        "type": "collector",
+        "blockage": 35.90006546583027,
+        "confidence": 0.8,
+        "catchment": 4.203815420437604,
+        "homes": 49,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 34,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0758495400650427,
+        "lon": 101.48850958083197,
+        "type": "collector",
+        "blockage": 65.55965363513678,
+        "confidence": 0.8,
+        "catchment": 0.5036911669187247,
+        "homes": 65,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 41,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.082224100733176,
+        "lon": 101.4881057052454,
+        "type": "outlet",
+        "blockage": 90.4700979590416,
+        "confidence": 0.8,
+        "catchment": 3.3706035498064013,
+        "homes": 1,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 45,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N5"
+      },
+      {
+        "from": "N1",
+        "to": "N12"
+      },
+      {
+        "from": "N2",
+        "to": "N9"
+      },
+      {
+        "from": "N3",
+        "to": "N4"
+      },
+      {
+        "from": "N4",
+        "to": "N9"
+      },
+      {
+        "from": "N4",
+        "to": "N13"
+      },
+      {
+        "from": "N5",
+        "to": "N8"
+      },
+      {
+        "from": "N6",
+        "to": "N11"
+      },
+      {
+        "from": "N7",
+        "to": "N9"
+      },
+      {
+        "from": "N8",
+        "to": "N9"
+      },
+      {
+        "from": "N9",
+        "to": "N10"
+      },
+      {
+        "from": "N10",
+        "to": "N11"
+      },
+      {
+        "from": "N11",
+        "to": "N12"
+      },
+      {
+        "from": "N12",
+        "to": "N13"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 11113",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.0867907712627205,
+        "lon": 101.48536889506038,
+        "type": "culvert",
+        "blockage": 82.35999438911676,
+        "confidence": 0.8,
+        "catchment": 4.863367093307898,
+        "homes": 54,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 10,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.080212277364917,
+        "lon": 101.48981365430913,
+        "type": "culvert",
+        "blockage": 23.097789124585688,
+        "confidence": 0.8,
+        "catchment": 3.7524699138477446,
+        "homes": 27,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 30,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.076344521001913,
+        "lon": 101.48865352433361,
+        "type": "channel",
+        "blockage": 11.868497845716774,
+        "confidence": 0.8,
+        "catchment": 1.9491719499230384,
+        "homes": 38,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 33,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.075888204236515,
+        "lon": 101.48998960058205,
+        "type": "channel",
+        "blockage": 81.18041346315295,
+        "confidence": 0.8,
+        "catchment": 2.766327597014606,
+        "homes": 62,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 30,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.080881253742613,
+        "lon": 101.48971873840875,
+        "type": "culvert",
+        "blockage": 40.68879701662809,
+        "confidence": 0.8,
+        "catchment": 2.3730450075119736,
+        "homes": 94,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 23,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N3"
+        ]
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.082376778689213,
+        "lon": 101.48838047810457,
+        "type": "culvert",
+        "blockage": 76.24863183591515,
+        "confidence": 0.8,
+        "catchment": 4.075673697330058,
+        "homes": 46,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 41,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.0755331586310644,
+        "lon": 101.49570318747499,
+        "type": "collector",
+        "blockage": 83.03840283770114,
+        "confidence": 0.8,
+        "catchment": 1.2545110888779163,
+        "homes": 30,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 43,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N5"
+        ]
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.0791221001492817,
+        "lon": 101.49058379816823,
+        "type": "culvert",
+        "blockage": 20.65653207246214,
+        "confidence": 0.8,
+        "catchment": 2.082735616527498,
+        "homes": 40,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 10,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump",
+        "dependsOn": [
+          "N6"
+        ]
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.076017162241973,
+        "lon": 101.48781363575347,
+        "type": "channel",
+        "blockage": 82.37797052133828,
+        "confidence": 0.8,
+        "catchment": 0.9494413945823907,
+        "homes": 2,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 43,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.082225250464864,
+        "lon": 101.49386284354888,
+        "type": "channel",
+        "blockage": 95.75844614300877,
+        "confidence": 0.8,
+        "catchment": 2.758649447746575,
+        "homes": 51,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 41,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.075023579821922,
+        "lon": 101.48503590019979,
+        "type": "collector",
+        "blockage": 96.77386817056686,
+        "confidence": 0.8,
+        "catchment": 2.5261705040931703,
+        "homes": 3,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 32,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.077764606405981,
+        "lon": 101.49631073100679,
+        "type": "channel",
+        "blockage": 44.68238765839487,
+        "confidence": 0.8,
+        "catchment": 3.9461943505331876,
+        "homes": 7,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 41,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0779114277893678,
+        "lon": 101.49217391300388,
+        "type": "channel",
+        "blockage": 69.7966142790392,
+        "confidence": 0.8,
+        "catchment": 1.8494807507842779,
+        "homes": 75,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 43,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.0818661521645265,
+        "lon": 101.48576447378657,
+        "type": "culvert",
+        "blockage": 71.3534893700853,
+        "confidence": 0.8,
+        "catchment": 4.725026925839484,
+        "homes": 38,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 14,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.0851537362346426,
+        "lon": 101.48763878409005,
+        "type": "channel",
+        "blockage": 7.6693152310326695,
+        "confidence": 0.8,
+        "catchment": 4.727086596935988,
+        "homes": 119,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 14,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.07552379185427,
+        "lon": 101.49246904411726,
+        "type": "channel",
+        "blockage": 45.76744067016989,
+        "confidence": 0.8,
+        "catchment": 3.8394155910238625,
+        "homes": 106,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 20,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N16",
+        "name": "Generated asset 16",
+        "lat": 3.0815328614199538,
+        "lon": 101.48698786361702,
+        "type": "inlet",
+        "blockage": 62.6661028014496,
+        "confidence": 0.8,
+        "catchment": 1.1186190087348222,
+        "homes": 11,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 26,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N17",
+        "name": "Generated asset 17",
+        "lat": 3.0781696620108563,
+        "lon": 101.4894914357122,
+        "type": "culvert",
+        "blockage": 15.51392509136349,
+        "confidence": 0.8,
+        "catchment": 2.188474954850972,
+        "homes": 58,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N16"
+        ]
+      },
+      {
+        "id": "N18",
+        "name": "Generated asset 18",
+        "lat": 3.0792406417764724,
+        "lon": 101.49008579827938,
+        "type": "outlet",
+        "blockage": 43.44837064854801,
+        "confidence": 0.8,
+        "catchment": 1.3380285827908664,
+        "homes": 76,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 22,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N2"
+      },
+      {
+        "from": "N1",
+        "to": "N6"
+      },
+      {
+        "from": "N2",
+        "to": "N8"
+      },
+      {
+        "from": "N3",
+        "to": "N8"
+      },
+      {
+        "from": "N4",
+        "to": "N9"
+      },
+      {
+        "from": "N4",
+        "to": "N14"
+      },
+      {
+        "from": "N5",
+        "to": "N14"
+      },
+      {
+        "from": "N6",
+        "to": "N11"
+      },
+      {
+        "from": "N6",
+        "to": "N9"
+      },
+      {
+        "from": "N7",
+        "to": "N9"
+      },
+      {
+        "from": "N7",
+        "to": "N11"
+      },
+      {
+        "from": "N8",
+        "to": "N13"
+      },
+      {
+        "from": "N9",
+        "to": "N12"
+      },
+      {
+        "from": "N10",
+        "to": "N18"
+      },
+      {
+        "from": "N11",
+        "to": "N16"
+      },
+      {
+        "from": "N11",
+        "to": "N13"
+      },
+      {
+        "from": "N12",
+        "to": "N16"
+      },
+      {
+        "from": "N13",
+        "to": "N14"
+      },
+      {
+        "from": "N13",
+        "to": "N16"
+      },
+      {
+        "from": "N14",
+        "to": "N18"
+      },
+      {
+        "from": "N15",
+        "to": "N16"
+      },
+      {
+        "from": "N16",
+        "to": "N17"
+      },
+      {
+        "from": "N17",
+        "to": "N18"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 12119",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.084589034948498,
+        "lon": 101.48823046432528,
+        "type": "channel",
+        "blockage": 28.865525824949145,
+        "confidence": 0.8,
+        "catchment": 0.8490285380277782,
+        "homes": 9,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.0865546178882943,
+        "lon": 101.48617332851141,
+        "type": "inlet",
+        "blockage": 12.277349247597158,
+        "confidence": 0.8,
+        "catchment": 4.1181576971895995,
+        "homes": 62,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.0818879613680767,
+        "lon": 101.48772901321576,
+        "type": "collector",
+        "blockage": 79.63135584723204,
+        "confidence": 0.8,
+        "catchment": 0.5099205601029098,
+        "homes": 40,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 37,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.07508923639264,
+        "lon": 101.48803927406668,
+        "type": "culvert",
+        "blockage": 20.82222697790712,
+        "confidence": 0.8,
+        "catchment": 2.248359906766564,
+        "homes": 58,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 14,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N2"
+        ]
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.0834233517525718,
+        "lon": 101.49540876518563,
+        "type": "inlet",
+        "blockage": 39.19514219742268,
+        "confidence": 0.8,
+        "catchment": 1.0836481138132512,
+        "homes": 13,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N3"
+        ]
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.0829297981476413,
+        "lon": 101.4950945180133,
+        "type": "inlet",
+        "blockage": 3.5741781583055854,
+        "confidence": 0.8,
+        "catchment": 1.8252875444479286,
+        "homes": 70,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 45,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.0793232829524206,
+        "lon": 101.49238919326291,
+        "type": "inlet",
+        "blockage": 31.239603529684246,
+        "confidence": 0.8,
+        "catchment": 1.4336022476665675,
+        "homes": 71,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 31,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.0774685837319122,
+        "lon": 101.49116917662323,
+        "type": "channel",
+        "blockage": 29.596580169163644,
+        "confidence": 0.8,
+        "catchment": 3.7606437199749054,
+        "homes": 40,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 31,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.0774921205071735,
+        "lon": 101.48872001821175,
+        "type": "collector",
+        "blockage": 51.222770544700325,
+        "confidence": 0.8,
+        "catchment": 0.4873857296071947,
+        "homes": 45,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 42,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.084592746770941,
+        "lon": 101.48665171577781,
+        "type": "culvert",
+        "blockage": 41.98235140647739,
+        "confidence": 0.8,
+        "catchment": 5.0540832032449545,
+        "homes": 96,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.086614259253256,
+        "lon": 101.4967163416557,
+        "type": "culvert",
+        "blockage": 86.89393370877951,
+        "confidence": 0.8,
+        "catchment": 2.6306701752357187,
+        "homes": 58,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 27,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.0764421264370907,
+        "lon": 101.48734051346779,
+        "type": "culvert",
+        "blockage": 83.43988878186792,
+        "confidence": 0.8,
+        "catchment": 0.4240717993117869,
+        "homes": 103,
+        "schools": 0,
+        "accessRoutes": 2,
+        "duration": 27,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0792869358239696,
+        "lon": 101.49568520857767,
+        "type": "channel",
+        "blockage": 97.00458075385541,
+        "confidence": 0.8,
+        "catchment": 3.869305422808975,
+        "homes": 42,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 38,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N11"
+        ]
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.0759170599495995,
+        "lon": 101.48504542229324,
+        "type": "inlet",
+        "blockage": 78.12900522258133,
+        "confidence": 0.8,
+        "catchment": 0.5012457233853638,
+        "homes": 53,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 30,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.07590304114949,
+        "lon": 101.49040216981992,
+        "type": "culvert",
+        "blockage": 46.2693341774866,
+        "confidence": 0.8,
+        "catchment": 4.55392890824005,
+        "homes": 112,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 42,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.0819361950745807,
+        "lon": 101.49393933196366,
+        "type": "inlet",
+        "blockage": 69.7468671714887,
+        "confidence": 0.8,
+        "catchment": 1.584270975831896,
+        "homes": 115,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 26,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N16",
+        "name": "Generated asset 16",
+        "lat": 3.0852839329568673,
+        "lon": 101.49533784458414,
+        "type": "culvert",
+        "blockage": 96.57688874285668,
+        "confidence": 0.8,
+        "catchment": 3.66707504009828,
+        "homes": 102,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 26,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N17",
+        "name": "Generated asset 17",
+        "lat": 3.079444302625023,
+        "lon": 101.48865973179787,
+        "type": "collector",
+        "blockage": 15.863932087086141,
+        "confidence": 0.8,
+        "catchment": 1.9582027171738445,
+        "homes": 85,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 21,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N18",
+        "name": "Generated asset 18",
+        "lat": 3.0820622482700277,
+        "lon": 101.49263448293135,
+        "type": "inlet",
+        "blockage": 54.45094897877425,
+        "confidence": 0.8,
+        "catchment": 4.67278457460925,
+        "homes": 70,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 34,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N19",
+        "name": "Generated asset 19",
+        "lat": 3.0861700889607895,
+        "lon": 101.49616027322412,
+        "type": "channel",
+        "blockage": 38.50988594349474,
+        "confidence": 0.8,
+        "catchment": 4.7753446430899205,
+        "homes": 41,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 22,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N20",
+        "name": "Generated asset 20",
+        "lat": 3.0808147159097716,
+        "lon": 101.49583252828195,
+        "type": "culvert",
+        "blockage": 74.7611666796729,
+        "confidence": 0.8,
+        "catchment": 2.9287139906547965,
+        "homes": 92,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 42,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N21",
+        "name": "Generated asset 21",
+        "lat": 3.080134008488618,
+        "lon": 101.49331233227998,
+        "type": "channel",
+        "blockage": 31.009580730460584,
+        "confidence": 0.8,
+        "catchment": 2.4986083594150843,
+        "homes": 54,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 16,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N22",
+        "name": "Generated asset 22",
+        "lat": 3.078944968993776,
+        "lon": 101.49134717991575,
+        "type": "inlet",
+        "blockage": 20.684078405611217,
+        "confidence": 0.8,
+        "catchment": 4.660744864773005,
+        "homes": 60,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 18,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N23",
+        "name": "Generated asset 23",
+        "lat": 3.080434433290735,
+        "lon": 101.49390607616212,
+        "type": "outlet",
+        "blockage": 77.13810093700886,
+        "confidence": 0.8,
+        "catchment": 1.2534485976677388,
+        "homes": 64,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "equipment": "pump"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N18"
+      },
+      {
+        "from": "N1",
+        "to": "N19"
+      },
+      {
+        "from": "N2",
+        "to": "N18"
+      },
+      {
+        "from": "N3",
+        "to": "N7"
+      },
+      {
+        "from": "N3",
+        "to": "N17"
+      },
+      {
+        "from": "N4",
+        "to": "N15"
+      },
+      {
+        "from": "N5",
+        "to": "N20"
+      },
+      {
+        "from": "N6",
+        "to": "N14"
+      },
+      {
+        "from": "N6",
+        "to": "N18"
+      },
+      {
+        "from": "N7",
+        "to": "N19"
+      },
+      {
+        "from": "N8",
+        "to": "N16"
+      },
+      {
+        "from": "N9",
+        "to": "N16"
+      },
+      {
+        "from": "N9",
+        "to": "N10"
+      },
+      {
+        "from": "N10",
+        "to": "N17"
+      },
+      {
+        "from": "N11",
+        "to": "N17"
+      },
+      {
+        "from": "N11",
+        "to": "N21"
+      },
+      {
+        "from": "N12",
+        "to": "N22"
+      },
+      {
+        "from": "N13",
+        "to": "N17"
+      },
+      {
+        "from": "N14",
+        "to": "N21"
+      },
+      {
+        "from": "N14",
+        "to": "N20"
+      },
+      {
+        "from": "N15",
+        "to": "N17"
+      },
+      {
+        "from": "N16",
+        "to": "N19"
+      },
+      {
+        "from": "N17",
+        "to": "N19"
+      },
+      {
+        "from": "N18",
+        "to": "N21"
+      },
+      {
+        "from": "N18",
+        "to": "N22"
+      },
+      {
+        "from": "N19",
+        "to": "N23"
+      },
+      {
+        "from": "N20",
+        "to": "N23"
+      },
+      {
+        "from": "N21",
+        "to": "N23"
+      },
+      {
+        "from": "N22",
+        "to": "N23"
+      }
+    ]
+  },
+  {
+    "name": "Generated DAG 13121",
+    "synthetic": true,
+    "nodes": [
+      {
+        "id": "N0",
+        "name": "Generated asset 0",
+        "lat": 3.085521301561967,
+        "lon": 101.48931524802651,
+        "type": "culvert",
+        "blockage": 8.784554153680801,
+        "confidence": 0.8,
+        "catchment": 1.8804726410191506,
+        "homes": 117,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 23,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N1",
+        "name": "Generated asset 1",
+        "lat": 3.0832097125248987,
+        "lon": 101.49557332210057,
+        "type": "inlet",
+        "blockage": 15.018819668330252,
+        "confidence": 0.8,
+        "catchment": 1.420761234872043,
+        "homes": 90,
+        "schools": 1,
+        "accessRoutes": 2,
+        "duration": 19,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N2",
+        "name": "Generated asset 2",
+        "lat": 3.0782244695657868,
+        "lon": 101.49403680631704,
+        "type": "culvert",
+        "blockage": 40.56414284277707,
+        "confidence": 0.8,
+        "catchment": 2.8736085396260025,
+        "homes": 106,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 45,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N1"
+        ]
+      },
+      {
+        "id": "N3",
+        "name": "Generated asset 3",
+        "lat": 3.0828342008264737,
+        "lon": 101.4909635015335,
+        "type": "channel",
+        "blockage": 1.8571147928014398,
+        "confidence": 0.8,
+        "catchment": 2.0803642550483348,
+        "homes": 107,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 19,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N4",
+        "name": "Generated asset 4",
+        "lat": 3.080969258517958,
+        "lon": 101.49186742008663,
+        "type": "channel",
+        "blockage": 93.77104465384036,
+        "confidence": 0.8,
+        "catchment": 3.785461545735598,
+        "homes": 37,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 25,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N5",
+        "name": "Generated asset 5",
+        "lat": 3.0806655093776065,
+        "lon": 101.48982957565597,
+        "type": "culvert",
+        "blockage": 68.76324119511992,
+        "confidence": 0.8,
+        "catchment": 3.0828552132472398,
+        "homes": 18,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 10,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG",
+        "dependsOn": [
+          "N4"
+        ]
+      },
+      {
+        "id": "N6",
+        "name": "Generated asset 6",
+        "lat": 3.0751778600597754,
+        "lon": 101.48834881334193,
+        "type": "culvert",
+        "blockage": 53.00660461653024,
+        "confidence": 0.8,
+        "catchment": 2.3078063640743496,
+        "homes": 61,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 17,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N7",
+        "name": "Generated asset 7",
+        "lat": 3.078636751276441,
+        "lon": 101.49125123349391,
+        "type": "inlet",
+        "blockage": 43.86887459550053,
+        "confidence": 0.8,
+        "catchment": 3.3046436401084067,
+        "homes": 75,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 40,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N8",
+        "name": "Generated asset 8",
+        "lat": 3.08681012068782,
+        "lon": 101.49697070928849,
+        "type": "collector",
+        "blockage": 30.927034583874047,
+        "confidence": 0.8,
+        "catchment": 2.4923760116100313,
+        "homes": 80,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 23,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N9",
+        "name": "Generated asset 9",
+        "lat": 3.0805333345429973,
+        "lon": 101.48951299805753,
+        "type": "inlet",
+        "blockage": 7.704372354783118,
+        "confidence": 0.8,
+        "catchment": 2.400032132677734,
+        "homes": 111,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 10,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N10",
+        "name": "Generated asset 10",
+        "lat": 3.0843695880705493,
+        "lon": 101.49341594636627,
+        "type": "inlet",
+        "blockage": 66.31769679952413,
+        "confidence": 0.8,
+        "catchment": 4.593601259216666,
+        "homes": 7,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 23,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N11",
+        "name": "Generated asset 11",
+        "lat": 3.0800632746191696,
+        "lon": 101.48701828884147,
+        "type": "culvert",
+        "blockage": 92.22221097443253,
+        "confidence": 0.8,
+        "catchment": 5.16645072940737,
+        "homes": 61,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 34,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N12",
+        "name": "Generated asset 12",
+        "lat": 3.0813488235482946,
+        "lon": 101.48734954074956,
+        "type": "inlet",
+        "blockage": 1.2415413977578282,
+        "confidence": 0.8,
+        "catchment": 0.21509500667452813,
+        "homes": 52,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N13",
+        "name": "Generated asset 13",
+        "lat": 3.0796775068687277,
+        "lon": 101.48695348432474,
+        "type": "inlet",
+        "blockage": 86.0704235965386,
+        "confidence": 0.8,
+        "catchment": 4.972191285155714,
+        "homes": 69,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 39,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N14",
+        "name": "Generated asset 14",
+        "lat": 3.077424714633264,
+        "lon": 101.48995774884708,
+        "type": "channel",
+        "blockage": 64.43754390347749,
+        "confidence": 0.8,
+        "catchment": 1.5186366576701402,
+        "homes": 116,
+        "schools": 1,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": true,
+        "history": "Independently generated synthetic DAG"
+      },
+      {
+        "id": "N15",
+        "name": "Generated asset 15",
+        "lat": 3.0788190873116257,
+        "lon": 101.49014019907732,
+        "type": "outlet",
+        "blockage": 39.18320392258465,
+        "confidence": 0.8,
+        "catchment": 2.5058018751908095,
+        "homes": 25,
+        "schools": 0,
+        "accessRoutes": 0,
+        "duration": 13,
+        "accessible": false,
+        "history": "Independently generated synthetic DAG"
+      }
+    ],
+    "edges": [
+      {
+        "from": "N0",
+        "to": "N4"
+      },
+      {
+        "from": "N0",
+        "to": "N1"
+      },
+      {
+        "from": "N1",
+        "to": "N12"
+      },
+      {
+        "from": "N2",
+        "to": "N11"
+      },
+      {
+        "from": "N2",
+        "to": "N10"
+      },
+      {
+        "from": "N3",
+        "to": "N5"
+      },
+      {
+        "from": "N4",
+        "to": "N6"
+      },
+      {
+        "from": "N4",
+        "to": "N8"
+      },
+      {
+        "from": "N5",
+        "to": "N8"
+      },
+      {
+        "from": "N6",
+        "to": "N11"
+      },
+      {
+        "from": "N7",
+        "to": "N13"
+      },
+      {
+        "from": "N7",
+        "to": "N15"
+      },
+      {
+        "from": "N8",
+        "to": "N11"
+      },
+      {
+        "from": "N9",
+        "to": "N14"
+      },
+      {
+        "from": "N9",
+        "to": "N15"
+      },
+      {
+        "from": "N10",
+        "to": "N15"
+      },
+      {
+        "from": "N11",
+        "to": "N13"
+      },
+      {
+        "from": "N12",
+        "to": "N13"
+      },
+      {
+        "from": "N12",
+        "to": "N14"
+      },
+      {
+        "from": "N13",
+        "to": "N14"
+      },
+      {
+        "from": "N14",
+        "to": "N15"
+      }
+    ]
+  }
+]

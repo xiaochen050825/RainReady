@@ -1,0 +1,635 @@
+{
+  "original": [
+    {
+      "method": "fixed",
+      "connected": -6.270846658099525,
+      "local": 20.202954653189536,
+      "unweighted": 0.06958239168150775,
+      "pooled": -4.034366179414755,
+      "valid": 96,
+      "negative": 93,
+      "tasks": 9.447916666666666,
+      "service": 250.05208333333334,
+      "travel": 25.541666666666668,
+      "blockageRemoved": 451.75488561673166
+    },
+    {
+      "method": "severity",
+      "connected": -4.272753964901043,
+      "local": 52.47863260409309,
+      "unweighted": 12.198983559342643,
+      "pooled": 1.6304516125121178,
+      "valid": 96,
+      "negative": 62,
+      "tasks": 8.291666666666666,
+      "service": 248.55208333333334,
+      "travel": 36.927083333333336,
+      "blockageRemoved": 562.9383856324542
+    },
+    {
+      "method": "rainready",
+      "connected": 18.700461463524764,
+      "local": 39.43973760307653,
+      "unweighted": 21.563755394943467,
+      "pooled": 14.808382479691366,
+      "valid": 96,
+      "negative": 29,
+      "tasks": 6.729166666666667,
+      "service": 254.75,
+      "travel": 33.5625,
+      "blockageRemoved": 403.483000509065
+    }
+  ],
+  "stress": [
+    {
+      "method": "fixed",
+      "connected": -0.3457027594682652,
+      "local": 4.4861206874971735,
+      "unweighted": 0.9673397363817249,
+      "pooled": -0.9843660685765323,
+      "valid": 540,
+      "negative": 180,
+      "tasks": 1.6666666666666667,
+      "service": 41.851851851851855,
+      "travel": 4.518518518518518,
+      "blockageRemoved": 93.57153076618151
+    },
+    {
+      "method": "severity",
+      "connected": 5.047073348738649,
+      "local": 14.659712897564082,
+      "unweighted": 6.158620856523209,
+      "pooled": 3.8324526815920863,
+      "valid": 540,
+      "negative": 162,
+      "tasks": 1.3407407407407408,
+      "service": 39.111111111111114,
+      "travel": 7.051851851851852,
+      "blockageRemoved": 101.73970790412622
+    },
+    {
+      "method": "rainready",
+      "connected": 10.260980684172633,
+      "local": 6.6872830914994426,
+      "unweighted": 6.921307030846945,
+      "pooled": 8.89311973902873,
+      "valid": 540,
+      "negative": 98,
+      "tasks": 1.04,
+      "service": 39.45037037037037,
+      "travel": 7.122962962962963,
+      "blockageRemoved": 72.11113634585162
+    }
+  ],
+  "stressByRegime": {
+    "nominal": [
+      {
+        "method": "fixed",
+        "connected": -0.3457027594682651,
+        "local": 4.48612068749718,
+        "unweighted": 0.9673397363817252,
+        "pooled": -0.9843660685762116,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 3.619640637807846,
+        "local": 17.48594218184012,
+        "unweighted": 5.970162412968735,
+        "pooled": 2.475445388038554,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.2592592592592593,
+        "service": 38.888888888888886,
+        "travel": 6.7407407407407405,
+        "blockageRemoved": 103.71705076243315
+      },
+      {
+        "method": "rainready",
+        "connected": 10.32363768674298,
+        "local": 8.199142950881466,
+        "unweighted": 7.260187239657853,
+        "pooled": 9.131502792808408,
+        "valid": 108,
+        "negative": 19,
+        "tasks": 1,
+        "service": 39.474074074074075,
+        "travel": 7.0962962962962965,
+        "blockageRemoved": 70.59877428836707
+      }
+    ],
+    "severe severity noise": [
+      {
+        "method": "fixed",
+        "connected": -0.3457027594682651,
+        "local": 4.48612068749718,
+        "unweighted": 0.9673397363817252,
+        "pooled": -0.9843660685762116,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 2.822006938022608,
+        "local": 4.136525341258642,
+        "unweighted": 2.8227643855844033,
+        "pooled": 2.2576122120191564,
+        "valid": 108,
+        "negative": 30,
+        "tasks": 1.5555555555555556,
+        "service": 39.48148148148148,
+        "travel": 6.777777777777778,
+        "blockageRemoved": 91.61779876681976
+      },
+      {
+        "method": "rainready",
+        "connected": 11.57801783168703,
+        "local": 5.240049648785696,
+        "unweighted": 7.14885217513859,
+        "pooled": 10.350947801958155,
+        "valid": 108,
+        "negative": 15,
+        "tasks": 1.0740740740740742,
+        "service": 39.851851851851855,
+        "travel": 6.851851851851852,
+        "blockageRemoved": 70.30443332024367
+      }
+    ],
+    "missing conditions": [
+      {
+        "method": "fixed",
+        "connected": -0.3457027594682651,
+        "local": 4.48612068749718,
+        "unweighted": 0.9673397363817252,
+        "pooled": -0.9843660685762116,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 8.919916209626454,
+        "local": 16.001375658981093,
+        "unweighted": 8.274143622136918,
+        "pooled": 6.990804621233374,
+        "valid": 108,
+        "negative": 28,
+        "tasks": 1.3703703703703705,
+        "service": 39.407407407407405,
+        "travel": 7.666666666666667,
+        "blockageRemoved": 104.87295467984276
+      },
+      {
+        "method": "rainready",
+        "connected": 10.537679731071634,
+        "local": 7.400414414371454,
+        "unweighted": 6.940307928303191,
+        "pooled": 9.743496073521777,
+        "valid": 108,
+        "negative": 20,
+        "tasks": 1,
+        "service": 39.074074074074076,
+        "travel": 7.296296296296297,
+        "blockageRemoved": 68.87210306069055
+      }
+    ],
+    "wrong connections": [
+      {
+        "method": "fixed",
+        "connected": -0.3457027594682651,
+        "local": 4.48612068749718,
+        "unweighted": 0.9673397363817252,
+        "pooled": -0.9843660685762116,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 3.619640637807846,
+        "local": 17.48594218184012,
+        "unweighted": 5.970162412968735,
+        "pooled": 2.475445388038554,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.2592592592592593,
+        "service": 38.888888888888886,
+        "travel": 6.7407407407407405,
+        "blockageRemoved": 103.71705076243315
+      },
+      {
+        "method": "rainready",
+        "connected": 9.136841824607457,
+        "local": 7.81498594685109,
+        "unweighted": 6.50347153812783,
+        "pooled": 7.371565386733114,
+        "valid": 108,
+        "negative": 23,
+        "tasks": 1.0444444444444445,
+        "service": 39.318518518518516,
+        "travel": 7.296296296296297,
+        "blockageRemoved": 75.20156837388424
+      }
+    ],
+    "wrong catchment/exposure": [
+      {
+        "method": "fixed",
+        "connected": -0.3457027594682651,
+        "local": 4.48612068749718,
+        "unweighted": 0.9673397363817252,
+        "pooled": -0.9843660685762116,
+        "valid": 108,
+        "negative": 36,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 6.25416232042849,
+        "local": 18.188779123900467,
+        "unweighted": 7.7558714489572615,
+        "pooled": 4.962955798632777,
+        "valid": 108,
+        "negative": 32,
+        "tasks": 1.2592592592592593,
+        "service": 38.888888888888886,
+        "travel": 7.333333333333333,
+        "blockageRemoved": 104.77368454910228
+      },
+      {
+        "method": "rainready",
+        "connected": 9.728726346754081,
+        "local": 4.7818224966075205,
+        "unweighted": 6.753716273007267,
+        "pooled": 7.868086640124187,
+        "valid": 108,
+        "negative": 21,
+        "tasks": 1.0814814814814815,
+        "service": 39.53333333333333,
+        "travel": 7.074074074074074,
+        "blockageRemoved": 75.57880268607254
+      }
+    ]
+  },
+  "stressByRain": {
+    "0": [
+      {
+        "method": "fixed",
+        "connected": null,
+        "local": null,
+        "unweighted": null,
+        "pooled": null,
+        "valid": 0,
+        "negative": 0,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": null,
+        "local": null,
+        "unweighted": null,
+        "pooled": null,
+        "valid": 0,
+        "negative": 0,
+        "tasks": 1.3407407407407408,
+        "service": 39.111111111111114,
+        "travel": 7.051851851851852,
+        "blockageRemoved": 101.73970790412622
+      },
+      {
+        "method": "rainready",
+        "connected": null,
+        "local": null,
+        "unweighted": null,
+        "pooled": null,
+        "valid": 0,
+        "negative": 0,
+        "tasks": 1.0592592592592593,
+        "service": 39.54074074074074,
+        "travel": 7.111111111111111,
+        "blockageRemoved": 73.79511695638023
+      }
+    ],
+    "8": [
+      {
+        "method": "fixed",
+        "connected": 1.8039065968827765,
+        "local": 5.692687674071885,
+        "unweighted": 2.637818986771483,
+        "pooled": -1.3132275790793857,
+        "valid": 135,
+        "negative": 10,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 13.87609016192816,
+        "local": 22.52083626977258,
+        "unweighted": 15.459652810965821,
+        "pooled": 10.090195845428198,
+        "valid": 135,
+        "negative": 21,
+        "tasks": 1.3407407407407408,
+        "service": 39.111111111111114,
+        "travel": 7.051851851851852,
+        "blockageRemoved": 101.73970790412622
+      },
+      {
+        "method": "rainready",
+        "connected": 13.397375530182225,
+        "local": 4.444444444444445,
+        "unweighted": 11.224884753491763,
+        "pooled": 19.83967167133952,
+        "valid": 135,
+        "negative": 6,
+        "tasks": 1.0518518518518518,
+        "service": 39.53333333333333,
+        "travel": 7.140740740740741,
+        "blockageRemoved": 73.18858394419982
+      }
+    ],
+    "24": [
+      {
+        "method": "fixed",
+        "connected": -0.7540256690496747,
+        "local": 6.048601416883357,
+        "unweighted": 1.2315399587554168,
+        "pooled": -1.7053262412357755,
+        "valid": 135,
+        "negative": 50,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 1.3223871964302754,
+        "local": 19.220361510922437,
+        "unweighted": 5.589229465169168,
+        "pooled": 6.994977042539992,
+        "valid": 135,
+        "negative": 46,
+        "tasks": 1.3407407407407408,
+        "service": 39.111111111111114,
+        "travel": 7.051851851851852,
+        "blockageRemoved": 101.73970790412622
+      },
+      {
+        "method": "rainready",
+        "connected": 13.337931392539161,
+        "local": 3.5905791381826804,
+        "unweighted": 8.194666595802742,
+        "pooled": 17.309026827504947,
+        "valid": 135,
+        "negative": 25,
+        "tasks": 1.0444444444444445,
+        "service": 39.525925925925925,
+        "travel": 7.140740740740741,
+        "blockageRemoved": 72.3801451087067
+      }
+    ],
+    "64": [
+      {
+        "method": "fixed",
+        "connected": -1.9591871351777315,
+        "local": 3.643490993954378,
+        "unweighted": 2.441204943139684e-15,
+        "pooled": -1.6077016946401437,
+        "valid": 135,
+        "negative": 60,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 2.758060482403891,
+        "local": 10.282583583446003,
+        "unweighted": 2.288235758405233,
+        "pooled": 4.112659428581751,
+        "valid": 135,
+        "negative": 48,
+        "tasks": 1.3407407407407408,
+        "service": 39.111111111111114,
+        "travel": 7.051851851851852,
+        "blockageRemoved": 101.73970790412622
+      },
+      {
+        "method": "rainready",
+        "connected": 8.41972133110239,
+        "local": 8.837063213939564,
+        "unweighted": 5.084459286607241,
+        "pooled": 9.334769336194068,
+        "valid": 135,
+        "negative": 34,
+        "tasks": 1.0222222222222221,
+        "service": 39.32592592592592,
+        "travel": 7.111111111111111,
+        "blockageRemoved": 70.59591785998566
+      }
+    ],
+    "120": [
+      {
+        "method": "fixed",
+        "connected": -0.4735048305284337,
+        "local": 2.559702665079091,
+        "unweighted": 7.047497977536408e-18,
+        "pooled": -0.47321925556020294,
+        "valid": 135,
+        "negative": 60,
+        "tasks": 1.6666666666666667,
+        "service": 41.851851851851855,
+        "travel": 4.518518518518518,
+        "blockageRemoved": 93.57153076618151
+      },
+      {
+        "method": "severity",
+        "connected": 2.2317555541922625,
+        "local": 6.615070226115341,
+        "unweighted": 1.2973653915526284,
+        "pooled": 2.525199010634864,
+        "valid": 135,
+        "negative": 47,
+        "tasks": 1.3407407407407408,
+        "service": 39.111111111111114,
+        "travel": 7.051851851851852,
+        "blockageRemoved": 101.73970790412622
+      },
+      {
+        "method": "rainready",
+        "connected": 5.8888944828667675,
+        "local": 9.877045569431088,
+        "unweighted": 3.181217487486045,
+        "pooled": 6.0212219146218,
+        "valid": 135,
+        "negative": 33,
+        "tasks": 1.0222222222222221,
+        "service": 39.32592592592592,
+        "travel": 7.111111111111111,
+        "blockageRemoved": 70.59591785998566
+      }
+    ]
+  },
+  "stressByBudget": {
+    "15": [
+      {
+        "method": "fixed",
+        "connected": 0,
+        "local": 0,
+        "unweighted": 0,
+        "pooled": 0,
+        "valid": 180,
+        "negative": 0,
+        "tasks": 0,
+        "service": 0,
+        "travel": 0,
+        "blockageRemoved": 0
+      },
+      {
+        "method": "severity",
+        "connected": 0,
+        "local": 0,
+        "unweighted": 0,
+        "pooled": 0,
+        "valid": 180,
+        "negative": 0,
+        "tasks": 0,
+        "service": 0,
+        "travel": 0,
+        "blockageRemoved": 0
+      },
+      {
+        "method": "rainready",
+        "connected": 0,
+        "local": 0,
+        "unweighted": 0,
+        "pooled": 0,
+        "valid": 180,
+        "negative": 0,
+        "tasks": 0,
+        "service": 0,
+        "travel": 0,
+        "blockageRemoved": 0
+      }
+    ],
+    "45": [
+      {
+        "method": "fixed",
+        "connected": -0.03926969764671612,
+        "local": 1.347864332601694,
+        "unweighted": 6.654116091484449e-16,
+        "pooled": -0.030714397885334928,
+        "valid": 180,
+        "negative": 90,
+        "tasks": 1.4444444444444444,
+        "service": 29.555555555555557,
+        "travel": 4.333333333333333,
+        "blockageRemoved": 81.15328500228416
+      },
+      {
+        "method": "severity",
+        "connected": -1.2870784861985505,
+        "local": 12.566689786082712,
+        "unweighted": 1.8228248021191316,
+        "pooled": -1.3154627749834802,
+        "valid": 180,
+        "negative": 104,
+        "tasks": 1.0444444444444445,
+        "service": 26.977777777777778,
+        "travel": 6.088888888888889,
+        "blockageRemoved": 79.52320698431383
+      },
+      {
+        "method": "rainready",
+        "connected": -1.8385158863336475,
+        "local": 7.478079735063251,
+        "unweighted": 0.11943906150859429,
+        "pooled": -1.1737331120255674,
+        "valid": 180,
+        "negative": 91,
+        "tasks": 1.0444444444444445,
+        "service": 29.14666666666667,
+        "travel": 6.364444444444445,
+        "blockageRemoved": 73.25604587767481
+      }
+    ],
+    "120": [
+      {
+        "method": "fixed",
+        "connected": -0.9978385807580786,
+        "local": 12.110497729889847,
+        "unweighted": 2.9020192091451746,
+        "pooled": -2.922383807843268,
+        "valid": 180,
+        "negative": 90,
+        "tasks": 3.5555555555555554,
+        "service": 96,
+        "travel": 9.222222222222221,
+        "blockageRemoved": 199.56130729626037
+      },
+      {
+        "method": "severity",
+        "connected": 16.428298532414498,
+        "local": 31.41244890660956,
+        "unweighted": 16.653037767450495,
+        "pooled": 12.81282081976113,
+        "valid": 180,
+        "negative": 58,
+        "tasks": 2.977777777777778,
+        "service": 90.35555555555555,
+        "travel": 15.066666666666666,
+        "blockageRemoved": 225.69591672806484
+      },
+      {
+        "method": "rainready",
+        "connected": 32.62145793885156,
+        "local": 12.583769539435085,
+        "unweighted": 20.64448203103224,
+        "pooled": 27.85309232911314,
+        "valid": 180,
+        "negative": 7,
+        "tasks": 2.0755555555555554,
+        "service": 89.20444444444445,
+        "travel": 15.004444444444445,
+        "blockageRemoved": 143.07736315988004
+      }
+    ]
+  },
+  "uncertainty": {
+    "pairedMean": 22.9732154284258,
+    "pairedMin": -82.67046434960746,
+    "pairedMedian": 5.256026979262853,
+    "pairedMax": 202.22288777470308,
+    "exploratoryBootstrap95": [
+      14.237152557122824,
+      32.99097239794913
+    ],
+    "bootstrapSeed": 12345,
+    "warning": "Conditional Monte Carlo interval for the fixed generator; not field uncertainty. Factorial stress rows share seeds and are not independent samples."
+  }
+}

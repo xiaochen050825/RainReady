@@ -1,0 +1,20 @@
+> rainready@2.0.0 test:audit
+> node --test tests/audit.test.mjs
+
+✔ hand-computed downstream transfer example produces an authentic negative outcome (1.4802ms)
+✔ zero denominators are undefined, tiny/clear obstruction is never increased, unknown truth rejects (0.5594ms)
+✔ direction and reconvergent paths do not turn downstream nodes into ancestors (0.373ms)
+✔ minor inlet can outrank a moderately blocked collector when exposure justifies it (7.6743ms)
+✔ no crews and crews arriving after deadline produce accurate deferrals without phantom completion (1.9538ms)
+✔ missing observed condition is a labelled prior and missing rain is not zero risk (0.417ms)
+✔ baseline metrics share denominators and cannot mutate scenario observations (2.9045ms)
+✔ planning saves independently from reports, checks conflicts and never overwrites corrupt storage (1.4642ms)
+✔ planning validation rejects unsupported versions, invalid graph and out-of-range settings (1.2382ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 203.0489

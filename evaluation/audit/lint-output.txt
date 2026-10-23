@@ -1,0 +1,4 @@
+
+> rainready@2.0.0 lint
+> eslint app lib tests next.config.ts eslint.config.mjs
+

@@ -1,0 +1,21 @@
+> rainready@2.0.0 test:scoring
+> node --test tests/scoring.test.mjs
+
+✔ environmental endpoint rejects missing and out-of-range coordinates (22.2091ms)
+✔ central scoring weights remain normalized (0.1458ms)
+✔ priority score exposes exact factor contributions (0.8785ms)
+✔ environmental score includes mapped proximity when available (0.5347ms)
+✔ missing waterway context lowers coverage without inventing a value (0.33ms)
+✔ missing rainfall lowers priority coverage without inventing a forecast (0.2806ms)
+✔ missing rainfall and waterway context reduce environmental coverage to visible evidence (0.121ms)
+✔ environmental lookup preserves a real zero-rain forecast when waterway lookup fails (1.9155ms)
+✔ waterway thresholds match the published configuration (0.1392ms)
+✔ rainfall scenario priority rises monotonically for the same drain (0.3052ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 188.3081
